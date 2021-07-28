@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=mobile-vertical.css.map */
