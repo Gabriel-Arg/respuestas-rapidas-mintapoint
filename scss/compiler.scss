@@ -23,3 +23,76 @@ p {
     font-size: 14px;
     font-weight: bold;
 }
+
+// ---------------------------------------------------------------------
+//          HEADER
+// ---------------------------------------------------------------------
+.header-fluid {
+    // border: 1px dashed black;
+    height: 40px;
+    background-color: $color-gris-oscuro;
+
+    .header-container {
+        // border: 1px dashed gray;
+        height: 100%;
+
+        .header-row {
+            // border: 1px dashed cyan;
+            height: 100%;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+
+            h1 {
+                margin: 0;
+                font-size: 1.3rem;
+                width: auto;
+                color: $color-gris;
+            }
+
+            figure {
+                padding: 0;
+                margin: 0;
+                width: 60px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+// ---------------------------------------------------------------------
+//          CUERPO PRINCIPAL
+// --------------------------------------------------------------------
+.cuerpo-fluid {
+    // border: 1px dashed black;
+    height: 93vh;
+
+    .cuerpo-row {
+        // border: 1px dashed blue;
+        height: 100%;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .row_botones {
+            border: 1px dashed red;
+            height: 100%;
+            width: 20%;
+        }
+
+        .row_contenidos {
+            border: 1px dashed red;
+            height: 100%;
+            width: 80%;
+        }
+    }
+}
+
+
+
