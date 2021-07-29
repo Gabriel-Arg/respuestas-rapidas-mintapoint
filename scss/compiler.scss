@@ -42,12 +42,12 @@ p {
 
             display: flex;
             flex-direction: row;
-            justify-content: space-evenly;
+            justify-content: flex-end;
             align-items: center;
 
             h1 {
-                margin: 0;
-                font-size: 1.3rem;
+                margin: 0 20px;
+                font-size: 1rem;
                 width: auto;
                 color: $color-gris;
             }
@@ -121,6 +121,9 @@ p {
                 background-color: $color-rosado;
                 color: $color-negro;
             }
+            button:focus {
+                background-color: $color-rosado;
+            }
         }
 
         // ---------------------------------------------------------------------
@@ -133,10 +136,54 @@ p {
             padding: 0;
             margin: 0;
 
-            .tabcontent {
-                border: 1px dashed red;
+            #defaultOpen {
+                border: 1px dashed orangered;
                 width: 100%;
                 height: 100%;
+                animation: fadeEffect 0.5s;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+
+                h3 {
+                    margin-bottom: 30px;
+                }
+
+                p {
+                    border-radius: 0px 15px 15px 15px;
+                    background-color: $color-gris;
+                    padding: 20px;
+                    
+                }
+            }
+
+            .tabcontent {
+                // border: 1px dashed red;
+                width: 100%;
+                height: 100%;
+                animation: fadeEffect 0.5s;
+            }
+
+            // ANIMACIÓN DE FUNDIDO PARA EL CAMBIO DE PESTAÑAS
+            @keyframes fadeEffect {
+                from {opacity: 0;}
+                to {opacity: 1;}
+            }
+
+            .pestaña {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h2 {
+                    background-color: $color-rosado;
+                    height: 40px;
+                    text-align: center;
+                }
             }
         }
     }
