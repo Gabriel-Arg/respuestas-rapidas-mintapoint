@@ -110,7 +110,6 @@ p {
   margin: 0;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos #defaultOpen {
-  border: 1px dashed orangered;
   width: 100%;
   height: 100%;
   animation: fadeEffect 0.5s;
