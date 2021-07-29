@@ -63,12 +63,41 @@
             <!-- ------------------------------------------------------------------------------ -->
             <!-- -----------------------BOTONES DE MEMBRESIAS -->
             <!-- ------------------------------------------------------------------------------ -->
-            <div class="row_botones"></div>
+            <div class="row_botones">
+
+                <button class="tablinks" onclick="openCity(event, 'chat')">Iniciar Chat</button>
+                <button class="tablinks" onclick="openCity(event, 'flex')">FLEX</button>
+                <button class="tablinks" onclick="openCity(event, 'flex_plata')">FLEX PLATA</button>
+                <button class="tablinks" onclick="openCity(event, 'flex_oro')">FLEX ORO</button>
+
+            </div>
 
             <!-- ------------------------------------------------------------------------------ -->
             <!-- -----------------------CONTENIDO DE LAS PESTAÑAS -->
             <!-- ------------------------------------------------------------------------------ -->
-            <div class="row_contenidos"></div>
+            <div class="row_contenidos">
+
+                <div id="chat" class="tabcontent">
+                    <h3>Iniciar Chat</h3>
+                    <p>London is the capital city of England.</p>
+                </div>
+
+                <div id="flex" class="tabcontent">
+                    <h3>FLEX</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+
+                <div id="flex_plata" class="tabcontent">
+                    <h3>FLEX PLATA</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+                <div id="flex_oro" class="tabcontent">
+                    <h3>FLEX ORO</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+            </div>
 
         </div>
     </div>
@@ -81,8 +110,10 @@
 
 
 
-
-
+    <!-- -------------------------------------------------------------------------------------- -->
+    <!-- ----------------------CONEXIÓN A HOJA JAVASCRIPT -->
+    <!-- -------------------------------------------------------------------------------------- -->
+    <script src="js/funciones.js"></script>
 
 
     <!-- Complementos y dependencias Bootstrap 5.0 JavaScript y Popper-->

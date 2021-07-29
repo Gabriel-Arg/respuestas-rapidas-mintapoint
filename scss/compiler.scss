@@ -80,16 +80,64 @@ p {
         justify-content: center;
         align-items: center;
 
+        // ---------------------------------------------------------------------
+        //          BOTONES DE LA IZQUIERDA
+        // --------------------------------------------------------------------
         .row_botones {
-            border: 1px dashed red;
+            // border: 1px dashed red;
+            background-color: $color-gris-oscuro;
+            padding: 0px 0px 0px 10px;
+            margin: 0;
             height: 100%;
             width: 20%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+
+            button {
+                border: none;
+                background-color: $color-gris;
+                border-radius: 5px 0px 0px 5px;
+                width: 100%;
+                height: 40px;
+                padding-left: 15px;
+                margin-bottom: 1px;
+                color: $color-gris-oscuro;
+                outline: none;
+                text-align: left;
+                cursor: pointer;
+                transition: 0.3s;
+                font-family: $fuente-titulos;
+                font-size: 1.2rem;
+            }
+            button:hover {
+                background-color: $color-rosado;
+                border: 2px solid $color-rosado;
+                color: $color-negro;
+            }
+            button:active {
+                background-color: $color-rosado;
+                color: $color-negro;
+            }
         }
 
+        // ---------------------------------------------------------------------
+        //          CONTENIDO DE LAS PESTAÑAS
+        // --------------------------------------------------------------------
         .row_contenidos {
-            border: 1px dashed red;
+            // border: 1px dashed red;
             height: 100%;
             width: 80%;
+            padding: 0;
+            margin: 0;
+
+            .tabcontent {
+                border: 1px dashed red;
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }
