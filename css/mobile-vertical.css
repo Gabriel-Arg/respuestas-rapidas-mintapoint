@@ -15,12 +15,14 @@ h3 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 25px;
+  color: #000000;
 }
 
 p {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: bold;
+  color: #000000;
 }
 
 .header-fluid {
@@ -148,6 +150,43 @@ p {
   background-color: #ed496c;
   height: 40px;
   text-align: center;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button {
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+  color: #000000;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button:hover {
+  background-color: #ed496c;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button:active {
+  background-color: #b8b8b8;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button:focus {
+  background-color: #b8b8b8;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_parrafo {
+  margin: 10px 0px 0px 0px;
+  font-family: "Roboto", sans-serif;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .btn-copy {
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  background-color: #b8b8b8;
+  margin-top: 10px;
+  padding: 5px;
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .btn-copy:hover {
+  background-color: #ed496c;
+  color: #F9F9F9;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .btn-copy:focus {
+  background-color: #ed496c;
+  color: #F9F9F9;
 }
 
 /*# sourceMappingURL=mobile-vertical.css.map */

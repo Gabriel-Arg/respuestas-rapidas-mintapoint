@@ -27,3 +27,19 @@ function openCity(evt, cityName) {
 //           DEFINE AL ELEMENTO CON EL ID "defautOpen" COMO EL PREDETERMINADO AL CARGAR LA PAGINA
 // ------------------------------------------------------------------------------------------
 document.getElementById("defaultOpen").click();
+
+
+//  -----------------------------------------------------------------------------------------
+//           FUNCION PARA COPIAR TEXTO EN LOS MENSAJES
+// ------------------------------------------------------------------------------------------
+
+function ejecutar(idelemento){
+    var aux = document.createElement("div");
+    aux.setAttribute("contentEditable", true);
+    aux.innerHTML = document.getElementById(idelemento).innerHTML;
+    aux.setAttribute("onfocus", "document.execCommand('selectAll',false,null)"); 
+    document.body.appendChild(aux);
+    aux.focus();
+    document.execCommand("copy");
+    document.body.removeChild(aux);
+}

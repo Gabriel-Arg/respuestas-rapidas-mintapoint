@@ -16,12 +16,14 @@ h3 {
     font-family: $fuente-subtitulos;
     font-weight: bold;
     font-size: 25px;
+    color: $color-negro;
 }
 
 p {
     font-family: $fuente-parrafo;
     font-size: 14px;
     font-weight: bold;
+    color: $color-negro;
 }
 
 // ---------------------------------------------------------------------
@@ -183,6 +185,49 @@ p {
                     background-color: $color-rosado;
                     height: 40px;
                     text-align: center;
+                }
+
+                .pestaña_acordion {
+
+                    .pestaña_acordion_button {
+                        font-family: $fuente-subtitulos;
+                        font-weight: bolder;
+                        color: $color-negro;
+                    }
+                    .pestaña_acordion_button:hover {
+                        background-color: $color-rosado;
+                    }
+                    .pestaña_acordion_button:active {
+                        background-color: $color-gris;
+                    }
+                    .pestaña_acordion_button:focus {
+                        background-color: $color-gris;
+                    }
+
+                    .pestaña_acordion_parrafo {
+                        margin: 10px 0px 0px 0px;
+                        font-family: $fuente-parrafo;
+                    }
+
+                    .btn-copy {
+                        border: none;
+                        border-radius: 5px;
+                        width: 50px;
+                        background-color: $color-gris;
+                        margin-top: 10px;
+                        padding: 5px;
+                        font-size: 10px;
+                        font-family: $fuente-parrafo;
+                        font-weight: 600;
+                    }
+                    .btn-copy:hover {
+                        background-color: $color-rosado;
+                        color: $color-blanco;
+                    }
+                    .btn-copy:focus {
+                        background-color: $color-rosado;
+                        color: $color-blanco;
+                    }
                 }
             }
         }

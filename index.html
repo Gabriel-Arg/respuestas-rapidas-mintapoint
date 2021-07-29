@@ -97,7 +97,91 @@
                 <!-- ----------------INICIO DEL CHAT--------------------------------- -->
                 <div id="chat" class="tabcontent pestaña">
                     <h2>Iniciar Chat</h2>
-                    <p>London is the capital city of England.</p>
+                    
+                    <!-- ----------------MENSAJE 1----------------------------- -->
+                    <div class="accordion accordion-flush pestaña_acordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button pestaña_acordion_button" title="Con este mensaje iniciamos la conversación con una persona que nos contacta por las RRSS" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Saludo inicial
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p id="pCopy" class="pestaña_acordion_parrafo">
+                                        Hola (nombre del cliente), espero te encuentres excelente!
+                                        Mi nombre es (nombre del miembro del team) y voy a ser tu asesor personal de
+                                        MINTA Point 😊
+                                    </p>
+                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
+                                        Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------MENSAJE 2----------------------------- -->
+                        <div class="accordion-item pestaña_acordion">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed pestaña_acordion_button" title="Con este mensaje indagamos cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Preguntamos
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p id="pCopy" class="pestaña_acordion_parrafo">
+                                        Un placer ponerme en contacto con vos! Contame, en qué te puedo ayudar?
+                                    </p>
+                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
+                                        Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------MENSAJE 3----------------------------- -->
+                        <div class="accordion-item pestaña_acordion">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed pestaña_acordion_button" title="Nos permite seguir indagando cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    ¿Qué es MINTA?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p id="pCopy" class="pestaña_acordion_parrafo">
+                                        MINTA Point es un coworking, es decir, aquí podés tener un 
+                                        espacio para trabajar sumamente innovador, accesible y que te 
+                                        permitirá conectarte con otras personas 😊
+                                    </p>
+                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
+                                        Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 </div>
 
                 <!-- ----------------FLEX--------------------------------- -->
