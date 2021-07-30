@@ -91,7 +91,7 @@ p {
             padding: 0px 0px 0px 10px;
             margin: 0;
             height: 100%;
-            width: 20%;
+            width: 40%;
 
             display: flex;
             flex-direction: column;
@@ -134,7 +134,7 @@ p {
         .row_contenidos {
             // border: 1px dashed red;
             height: 100%;
-            width: 80%;
+            width: 60%;
             padding: 0;
             margin: 0;
 
@@ -157,7 +157,9 @@ p {
                     border-radius: 0px 15px 15px 15px;
                     background-color: $color-gris;
                     padding: 20px;
-                    
+                    width: 220px;
+                    text-align: center;
+                    font-size: 0.8rem;
                 }
             }
 
@@ -202,6 +204,10 @@ p {
                     }
                     .pestaña_acordion_button:focus {
                         background-color: $color-gris;
+                    }
+
+                    .accordion-body {
+                        background-color: #ed496c3f;
                     }
 
                     .pestaña_acordion_parrafo {

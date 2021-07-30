@@ -107,7 +107,13 @@
                         al menos hasta que pongamos a funcionar el Chatbot. <br>
                     </p>
                     <p>
-                        Elige una pestaña y busca tu "Respuesta rápida".
+                        Elige una pestaña con el servicio...
+                    </p>
+                    <p>
+                        ...seleccióna un mensaje...
+                    </p>
+                    <p>
+                        ...y dale al botón "copiar".
                     </p>
                 </div>
 
@@ -128,8 +134,8 @@
                                 data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
                                     <p id="pCopy" class="pestaña_acordion_parrafo">
-                                        Hola (nombre del cliente), espero te encuentres excelente!
-                                        Mi nombre es (nombre del miembro del team) y voy a ser tu asesor personal de
+                                        Hola (nombre del cliente), <br> espero te encuentres excelente! <br>
+                                        Mi nombre es (nombre asesor MINTA) y voy a ser tu asesor personal de
                                         MINTA Point 😊
                                     </p>
                                     <button class="btn-copy" onclick="ejecutar('pCopy')">
@@ -184,27 +190,114 @@
                         </div>
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </div>
 
                 <!-- ----------------FLEX--------------------------------- -->
                 <div id="flex" class="tabcontent pestaña">
                     <h2>FLEX</h2>
-                    <p>Paris is the capital of France.</p>
+
+                    <!-- ----------------MENSAJE 1----------------------------- -->
+                    <div class="accordion accordion-flush pestaña_acordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button pestaña_acordion_button" title="Con este mensaje buscaremos obtener información básica e importante para recomendarle al cliente la mejor membresía para su caso" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Indagar Membresía
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p id="pCopy" class="pestaña_acordion_parrafo">
+                                        Bien! Para poder asesorarte con la mejor opción para tu caso 😁, 
+                                        me podrías contar cuál es tu profesión? Y, cuáles son o serían tus 
+                                        horarios de trabajo? 
+                                    </p>
+                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
+                                        Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------MENSAJE 2----------------------------- -->
+                        <div class="accordion-item pestaña_acordion">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed pestaña_acordion_button" title="Con este mensaje indagamos cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Recomendación 1
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p id="pCopy" class="pestaña_acordion_parrafo">
+                                        Mirá, más allá de los beneficios económicos, MINTA Point te provee 
+                                        una experiencia diferente. 
+                                    </p>
+                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
+                                        Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------MENSAJE 3----------------------------- -->
+                        <div class="accordion-item pestaña_acordion">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed pestaña_acordion_button" title="Nos permite seguir indagando cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Recomendación 2
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p id="pCopy" class="pestaña_acordion_parrafo">
+                                        Te resumo palabras textuales de algunos de nuestros coworkers (espero puedas 
+                                        conocerlos porque son geniales!). <br>
+                                        Nos han dicho que dejaron de sentirse solos desde que trabajan en MINTA, no 
+                                        solo porque se encontraron con personas que están o estuvieron en su misma 
+                                        situación, sino también, por el acompañamiento profesional permanente de 
+                                        la consultora (MINTA Hacks for Business). Además, la comodidad del espacio, 
+                                        el poder tener una dirección física para recibir clientes, amigos, familia 
+                                        (que siempre traen regalitos :D) les ha dado un compromiso de no faltar nunca, 
+                                        y con eso su proyecto creció ampliamente.
+                                    </p>
+                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
+                                        Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----------------MENSAJE 4----------------------------- -->
+                        <div class="accordion-item pestaña_acordion">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed pestaña_acordion_button" title="Nos permite seguir indagando cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Foto
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p id="pCopy" class="pestaña_acordion_parrafo">
+                                        MINTA Point es un coworking, es decir, aquí podés tener un 
+                                        espacio para trabajar sumamente innovador, accesible y que te 
+                                        permitirá conectarte con otras personas 😊
+                                    </p>
+                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
+                                        Copiar
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+
                 </div>
 
                 <!-- ----------------FLEX PLATA--------------------------------- -->
