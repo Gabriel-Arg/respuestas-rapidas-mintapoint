@@ -176,6 +176,7 @@ p {
                 to {opacity: 1;}
             }
 
+            // CONTENEDOR ANSESTRO DE TODA LA PESTAÑA DE LA DERECHA
             .pestaña {
 
                 display: flex;
@@ -183,14 +184,17 @@ p {
                 justify-content: center;
                 align-items: center;
 
+                // TITULO PRINCIPAL DE LA PESTAÑA
                 h2 {
                     background-color: $color-rosado;
                     height: 40px;
                     text-align: center;
                 }
 
+                // CONTENEDOR PADRE DE TODAS LAS PESTAÑAS
                 .pestaña_acordion {
 
+                    // BOTON CON TITULO
                     .pestaña_acordion_button {
                         font-family: $fuente-subtitulos;
                         font-weight: bolder;
@@ -210,11 +214,13 @@ p {
                         background-color: #ed496c3f;
                     }
 
+                    // DESPLEGABLE CON LA RESPUESTA RÁPIDA
                     .pestaña_acordion_parrafo {
                         margin: 10px 0px 0px 0px;
                         font-family: $fuente-parrafo;
                     }
 
+                    // BOTON DE COPIAR TEXTO
                     .btn-copy {
                         border: none;
                         border-radius: 5px;
@@ -236,6 +242,56 @@ p {
                     }
                 }
             }
+
+            // ----COLAPSO CON BOTONES----------
+            .colapso_p {
+                margin-bottom: 0;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                .colapso_p_btn {
+                    border-radius: 0;
+                    border: 1px solid $color-gris;
+                    width: 95%;
+                    background-color: $color-gris-oscuro;
+                    font-family: $fuente-subtitulos;
+                    font-weight: bold;
+                }
+            }
+
+            .colapso_mje {
+                // border: 1px dotted red;
+                text-align: justify;
+                font-size: 0.8rem;
+                line-height: 0.95rem;
+            }
+            
+            // BOTON DE COPIAR TEXTO
+            .btn-copy {
+                border: none;
+                border-radius: 5px;
+                width: 100px;
+                background-color: $color-gris;
+                margin: 0px 0px 10px 15px;
+                padding: 5px;
+                font-size: 10px;
+                font-family: $fuente-parrafo;
+                font-weight: 600;
+            }
+            .btn-copy:hover {
+                background-color: $color-rosado;
+                color: $color-blanco;
+            }
+            .btn-copy:focus {
+                background-color: $color-rosado;
+                color: $color-blanco;
+            }
+
+
+
         }
     }
 }
