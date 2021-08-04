@@ -267,6 +267,14 @@ p {
                 text-align: justify;
                 font-size: 0.8rem;
                 line-height: 0.95rem;
+
+                .foto-membre {
+                    width: 200px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
             }
             
             // BOTON DE COPIAR TEXTO

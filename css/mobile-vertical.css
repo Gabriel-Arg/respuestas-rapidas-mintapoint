@@ -213,6 +213,12 @@ p {
   font-size: 0.8rem;
   line-height: 0.95rem;
 }
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje .foto-membre {
+  width: 200px;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje .foto-membre img {
+  width: 100%;
+}
 .cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy {
   border: none;
   border-radius: 5px;
