@@ -33,13 +33,34 @@ document.getElementById("defaultOpen").click();
 //           FUNCION PARA COPIAR TEXTO EN LOS MENSAJES
 // ------------------------------------------------------------------------------------------
 
-function ejecutar(idelemento){
-    var aux = document.createElement("div");
-    aux.setAttribute("contentEditable", true);
-    aux.innerHTML = document.getElementById(idelemento).innerHTML;
-    aux.setAttribute("onfocus", "document.execCommand('selectAll',false,null)"); 
-    document.body.appendChild(aux);
-    aux.focus();
-    document.execCommand("copy");
-    document.body.removeChild(aux);
-}
+// function ejecutar(idelemento){
+//     var aux = document.createElement("div");
+//     aux.setAttribute("contentEditable", true);
+//     aux.innerHTML = document.getElementById(idelemento).innerHTML;
+//     aux.setAttribute("onfocus", "document.execCommand('selectAll',false,null)"); 
+//     document.body.appendChild(aux);
+//     aux.focus();
+//     document.execCommand("copy");
+//     document.body.removeChild(aux);
+// }
+
+//  -----------------------------------------------------------------------------------------
+//           FUNCION PARA COPIAR TEXTO EN LOS MENSAJES
+// ------------------------------------------------------------------------------------------
+
+const button = document.querySelector('button.btn-copy');
+const input = document.querySelector('input.colapso_mje_input');
+const mensaje = document.querySelector('#mensaje')
+
+button.addEventListener('click',function() {
+    input.focus();
+    document.execCommand('selectAll');
+    document.execCommand('copy');
+
+    mensaje.innerHTML = "Copiado"
+
+    setTimeout(()=> mensaje.innerHTML ="", 3000);
+}) 
+
+
+
