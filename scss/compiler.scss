@@ -259,7 +259,39 @@ p {
                     background-color: $color-gris-oscuro;
                     font-family: $fuente-subtitulos;
                     font-weight: bold;
+
+                    position: relative;
                 }
+
+                // ETIQUETA CON COLOR PARA DEFINIR TIPO DE MENSAJE
+                .etiqueta-color {
+                    padding: 0;
+                    margin: 0;
+                    width: 10px;
+                    height: 100%;
+
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                }
+
+                #recomendar {
+                    background-color: #ed496c;
+                }
+                #cierre {
+                    background-color: #7ED957;
+                }
+                #transferencia {
+                    background-color: rgb(0, 0, 0);
+                }
+                #prueba-gratis {
+                    background-color: #FFDA10;
+                }
+                #cierre-perdido {
+                    background-color: #F91B1B;
+                }
+
+
             }
 
             .colapso_mje {
@@ -268,8 +300,16 @@ p {
                 font-size: 0.8rem;
                 line-height: 0.95rem;
 
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
                 .foto-membre {
-                    width: 200px;
+                    border: 2px dashed $color-gris;
+                    padding: 5px;
+                    width: 100px;
+                    cursor: move;
 
                     img {
                         width: 100%;

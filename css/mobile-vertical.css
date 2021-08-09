@@ -207,14 +207,46 @@ p {
   background-color: #525252;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  position: relative;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p .etiqueta-color {
+  padding: 0;
+  margin: 0;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #recomendar {
+  background-color: #ed496c;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #cierre {
+  background-color: #7ED957;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #transferencia {
+  background-color: black;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #prueba-gratis {
+  background-color: #FFDA10;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #cierre-perdido {
+  background-color: #F91B1B;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje {
   text-align: justify;
   font-size: 0.8rem;
   line-height: 0.95rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje .foto-membre {
-  width: 200px;
+  border: 2px dashed #b8b8b8;
+  padding: 5px;
+  width: 100px;
+  cursor: move;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje .foto-membre img {
   width: 100%;
