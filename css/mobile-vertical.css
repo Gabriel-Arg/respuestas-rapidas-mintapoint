@@ -235,7 +235,7 @@ p {
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje {
   text-align: justify;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   line-height: 0.95rem;
   display: flex;
   flex-direction: column;
@@ -261,6 +261,9 @@ p {
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje .colapso_mje_input:focus {
   outline: none;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje #precio {
+  width: auto;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy {
   border: none;

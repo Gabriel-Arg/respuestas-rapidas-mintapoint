@@ -290,6 +290,7 @@ p {
                 #cierre-perdido {
                     background-color: #F91B1B;
                 }
+                
 
 
             }
@@ -297,7 +298,7 @@ p {
             .colapso_mje {
                 // border: 1px dotted red;
                 text-align: justify;
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 line-height: 0.95rem;
 
                 display: flex;
@@ -328,7 +329,9 @@ p {
                     outline: none;
                 }
 
-
+                #precio {
+                    width: auto;
+                }
 
 
 
