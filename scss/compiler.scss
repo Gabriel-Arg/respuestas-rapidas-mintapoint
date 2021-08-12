@@ -154,6 +154,17 @@ p {
                 justify-content: flex-start;
                 align-items: center;
 
+                figure {
+                    // border: 1px dotted red;
+                    padding: 0;
+                    margin: 0px 0px 10px 0px;
+                    width: 180px;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
                 h3 {
                     margin-bottom: 30px;
                 }

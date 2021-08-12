@@ -120,6 +120,14 @@ p {
   justify-content: flex-start;
   align-items: center;
 }
+.cuerpo-fluid .cuerpo-row .row_contenidos #defaultOpen figure {
+  padding: 0;
+  margin: 0px 0px 10px 0px;
+  width: 180px;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos #defaultOpen figure img {
+  width: 100%;
+}
 .cuerpo-fluid .cuerpo-row .row_contenidos #defaultOpen h3 {
   margin-bottom: 30px;
 }
