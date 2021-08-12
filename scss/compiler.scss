@@ -280,6 +280,9 @@ p {
                     top: 0;
                 }
 
+                #indagar {
+                    background-color: $color-gris;
+                }
                 #recomendar {
                     background-color: #ed496c;
                 }
@@ -301,10 +304,12 @@ p {
             }
 
             .colapso_mje {
-                // border: 1px dotted red;
+                border: 2px dotted $color-gris;
+                margin: 7px;
                 text-align: justify;
                 font-size: 0.7rem;
                 line-height: 0.95rem;
+                cursor: text;
 
                 display: flex;
                 flex-direction: column;

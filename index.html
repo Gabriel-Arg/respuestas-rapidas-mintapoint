@@ -122,106 +122,100 @@
                 <!-- ---------------------------------------------------------------------------------------------- -->
                 <div id="chat" class="tabcontent pestaña">
                     <h2>Iniciar Chat</h2>
-                    
-                    <!-- -----------------CONTENEDOR PADRE DE LOS ACORDEONES--------------------------------------- -->
-                    <div class="accordion accordion-flush pestaña_acordion" id="accordionExample">
 
-                        <!-- ----------------MENSAJE 1----------------------------- -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingOne">
-                                <button class="accordion-button pestaña_acordion_button" title="Con este mensaje iniciamos la conversación con una persona que nos contacta por las RRSS" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" 
-                                    aria-controls="collapseOne">
-                                    Saludo inicial
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p id="pCopy" class="pestaña_acordion_parrafo">
-                                        Hola (nombre del cliente), <br> espero te encuentres excelente! <br>
-                                        Mi nombre es (nombre asesor MINTA) y voy a ser tu asesor personal de
-                                        MINTA Point 😊
-                                    </p>
-                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
-                                        Copiar
-                                    </button>
-                                </div>
-                            </div>
+                    <!-- ---------RESPUESTA RÁPIDA A--------------------- -->
+                    <!-- BOTON------------------------->
+                    <p class="colapso_p" style="margin-top: 10px;">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#inicio-1" aria-expanded="false" 
+                            aria-controls="inicio-1">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /ASESOR1 - Saludo inicial
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------------- -->
+                    <div class="collapse" id="inicio-1">
+                        <div class="card card-body colapso_mje">
+                            Hola (nombre del cliente), espero te encuentres excelente! <br>
+                            Mi nombre es (nombre asesor MINTA) y voy a ser tu asesor personal de
+                            MINTA Point 😊
                         </div>
-
-                        <!-- ----------------MENSAJE 2----------------------------- -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingTwo">
-                                <button class="accordion-button collapsed pestaña_acordion_button" title="Con este mensaje indagamos cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Preguntamos
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p id="pCopy" class="pestaña_acordion_parrafo">
-                                        Un placer ponerme en contacto con vos! Contame, en qué te puedo ayudar?
-                                    </p>
-                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
-                                        Copiar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ----------------MENSAJE 3----------------------------- -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed pestaña_acordion_button" title="Nos permite seguir indagando cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    ¿Qué es MINTA?
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p id="pCopy" class="pestaña_acordion_parrafo">
-                                        MINTA Point es un coworking, es decir, aquí podés tener un 
-                                        espacio para trabajar sumamente innovador, accesible y que te 
-                                        permitirá conectarte con otras personas 😊
-                                    </p>
-                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
-                                        Copiar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ----------------MENSAJE 4----------------------------- -->
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="headingThree">
-                                <button class="accordion-button collapsed pestaña_acordion_button" title="Nos permite seguir indagando cuanto sabe de MINTA" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    Indagar Membresía
-                                </button>
-                            </h2>
-                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p id="pCopy" class="pestaña_acordion_parrafo">
-                                        Bien! Para poder asesorarte con la mejor opción para tu caso 😊, 
-                                        ¿me podrías contar cuál es tu profesión? Y ¿cuáles son o serían tus horarios de trabajo? 
-                                    </p>
-                                    <button class="btn-copy" onclick="ejecutar('pCopy')">
-                                        Copiar
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
+                        <!-- BOTON COPIAR----------- -->
+                        <button class="btn-copy">
+                            Copiar
+                        </button>
                     </div>
 
+                    <!-- ---------RESPUESTA RÁPIDA B--------------------- -->
+                    <!-- BOTON------------------------->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#inicio-2" aria-expanded="false" 
+                            aria-controls="inicio-2">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /ASESOR2 - Preguntamos
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------------- -->
+                    <div class="collapse" id="inicio-2">
+                        <div class="card card-body colapso_mje">
+                            Un placer ponerme en contacto con vos! Contame, en qué te puedo ayudar?
+                        </div>
+                        <!-- BOTON COPIAR----------- -->
+                        <button class="btn-copy">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------RESPUESTA RÁPIDA C--------------------- -->
+                    <!-- BOTON------------------------->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#inicio-3" aria-expanded="false" 
+                            aria-controls="inicio-3">
+                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /MINTA - ¿Qué es Minta?
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------------- -->
+                    <div class="collapse" id="inicio-3">
+                        <div class="card card-body colapso_mje">
+                            MINTA Point es un coworking, es decir, aquí podés tener un 
+                            espacio para trabajar sumamente innovador, accesible y que te 
+                            permitirá conectarte con otras personas 😊
+                        </div>
+                        <!-- BOTON COPIAR----------- -->
+                        <button class="btn-copy">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------RESPUESTA RÁPIDA D--------------------- -->
+                    <!-- BOTON------------------------->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#inicio-4" aria-expanded="false" 
+                            aria-controls="inicio-4">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /INDAGARMEMBRE - Preguntamos
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------------- -->
+                    <div class="collapse" id="inicio-4">
+                        <div class="card card-body colapso_mje">
+                            MINTA Point es un coworking, es decir, aquí podés tener un 
+                            espacio para trabajar sumamente innovador, accesible y que te 
+                            permitirá conectarte con otras personas 😊
+                        </div>
+                        <!-- BOTON COPIAR----------- -->
+                        <button class="btn-copy">
+                            Copiar
+                        </button>
+                    </div>
 
                     <!-- ---------RESPUESTA RÁPIDA 1--------------------- -->
                     <!-- BOTON------------------------->
-                    <p class="colapso_p" style="margin-top: 30px;">
+                    <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-1" aria-expanded="false" 
                             aria-controls="flex-1">
@@ -396,7 +390,7 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-7" aria-expanded="false" 
                             aria-controls="flex-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
                             Preguntamos si le interesa
                         </button>
                     </p>
@@ -734,7 +728,7 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flexplata-7" aria-expanded="false" 
                             aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
                             Preguntamos si le interesa
                         </button>
                     </p>
@@ -1071,7 +1065,7 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flexoro-7" aria-expanded="false" 
                             aria-controls="flexoro-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
                             Preguntamos si le interesa
                         </button>
                     </p>
@@ -1409,7 +1403,7 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flexplata-7" aria-expanded="false" 
                             aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
                             Preguntamos si le interesa
                         </button>
                     </p>

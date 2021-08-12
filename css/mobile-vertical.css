@@ -220,6 +220,9 @@ p {
   left: 0;
   top: 0;
 }
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #indagar {
+  background-color: #b8b8b8;
+}
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #recomendar {
   background-color: #ed496c;
 }
@@ -236,9 +239,12 @@ p {
   background-color: #F91B1B;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_mje {
+  border: 2px dotted #b8b8b8;
+  margin: 7px;
   text-align: justify;
   font-size: 0.7rem;
   line-height: 0.95rem;
+  cursor: text;
   display: flex;
   flex-direction: column;
   justify-content: center;
