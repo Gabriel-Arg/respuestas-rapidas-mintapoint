@@ -69,18 +69,17 @@ p {
   padding: 0px;
   margin: 0;
   height: 100%;
-  width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 .cuerpo-fluid .cuerpo-row .row_botones button {
-  border: 3px solid #F9F9F9;
+  border: 2px solid #b8b8b8;
   border-radius: 12px;
-  outline: 3px solid #b8b8b8;
   background: #c4c4c4;
-  background: linear-gradient(180deg, #c4c4c4 0%, #dddddd 0%, white 100%);
+  background: linear-gradient(180deg, #525252 0%, #afafaf 0%, white 100%);
   width: 90%;
   height: 4.2vh;
   padding: 0px;
@@ -106,8 +105,9 @@ p {
   border: 4px solid #ed496c;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos {
+  background-color: #F9F9F9;
   height: 100%;
-  width: 60%;
+  width: 65%;
   padding: 0;
   margin: 0;
 }
