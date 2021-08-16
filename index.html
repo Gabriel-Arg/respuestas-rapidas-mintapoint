@@ -118,12 +118,12 @@
                 </div>
 
                 <!-- ---------------------------------------------------------------------------------------------- -->
-                <!-- ----------------INICIO DEL CHAT--------------------------------- -->
+                <!-- ----------------INICIAR DEL CHAT--------------------------------- -->
                 <!-- ---------------------------------------------------------------------------------------------- -->
                 <div id="chat" class="tabcontent pestaña">
                     <h2>Iniciar Chat</h2>
 
-                    <!-- ---------RESPUESTA RÁPIDA A--------------------- -->
+                    <!-- ---------SALUDO INICIAL--------------------- -->
                     <!-- BOTON------------------------->
                     <p class="colapso_p" style="margin-top: 10px;">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
@@ -135,18 +135,18 @@
                     </p>
                     <!-- MENSAJE-------------------- -->
                     <div class="collapse" id="inicio-1">
-                        <div class="card card-body colapso_mje">
+                        <div class="card card-body colapso_mje" id="rr-1">
                             Hola (nombre del cliente), espero te encuentres excelente! <br>
                             Mi nombre es (nombre asesor MINTA) y voy a ser tu asesor personal de
                             MINTA Point 😊
                         </div>
                         <!-- BOTON COPIAR----------- -->
-                        <button class="btn-copy">
+                        <button class="btn-copy" onclick="copiar1()">
                             Copiar
                         </button>
                     </div>
 
-                    <!-- ---------RESPUESTA RÁPIDA B--------------------- -->
+                    <!-- ---------PREGUNTAMOS--------------------- -->
                     <!-- BOTON------------------------->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
@@ -158,11 +158,11 @@
                     </p>
                     <!-- MENSAJE-------------------- -->
                     <div class="collapse" id="inicio-2">
-                        <div class="card card-body colapso_mje">
+                        <div class="card card-body colapso_mje" id="rr-2">
                             Un placer ponerme en contacto con vos! Contame, en qué te puedo ayudar?
                         </div>
                         <!-- BOTON COPIAR----------- -->
-                        <button class="btn-copy">
+                        <button class="btn-copy" onclick="copiar2()">
                             Copiar
                         </button>
                     </div>
@@ -5122,6 +5122,7 @@
     <!-- ----------------------CONEXIÓN A HOJA JAVASCRIPT -->
     <!-- -------------------------------------------------------------------------------------- -->
     <script src="js/funciones.js"></script>
+    <script src="js/iniciarchat.js"></script>
 
     
     <!-- Complementos y dependencias Bootstrap 5.0 JavaScript y Popper-->

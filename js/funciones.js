@@ -48,19 +48,19 @@ document.getElementById("defaultOpen").click();
 //           FUNCION PARA COPIAR TEXTO EN LOS MENSAJES
 // ------------------------------------------------------------------------------------------
 
-const button = document.querySelector('button.btn-copy');
-const input = document.querySelector('input.colapso_mje_input');
-const mensaje = document.querySelector('#mensaje')
+// const button = document.querySelector('button.btn-copy');
+// const input = document.querySelector('input.colapso_mje_input');
+// const mensaje = document.querySelector('#mensaje')
 
-button.addEventListener('click',function() {
-    input.focus();
-    document.execCommand('selectAll');
-    document.execCommand('copy');
+// button.addEventListener('click',function() {
+//     input.focus();
+//     document.execCommand('selectAll');
+//     document.execCommand('copy');
 
-    mensaje.innerHTML = "Copiado"
+//     mensaje.innerHTML = "Copiado"
 
-    setTimeout(()=> mensaje.innerHTML ="", 3000);
-}) 
+//     setTimeout(()=> mensaje.innerHTML ="", 3000);
+// }) 
 
 
 
