@@ -163,6 +163,10 @@ p {
   height: 40px;
   text-align: center;
 }
+.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña #p-subtitulo {
+  text-align: center;
+  margin: 10px 0px;
+}
 .cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button {
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
