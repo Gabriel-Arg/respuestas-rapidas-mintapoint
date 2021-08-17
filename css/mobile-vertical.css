@@ -167,46 +167,6 @@ p {
   text-align: center;
   margin: 10px 0px;
 }
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button {
-  font-family: "Roboto", sans-serif;
-  font-weight: bolder;
-  color: #000000;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button:hover {
-  background-color: #ed496c;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button:active {
-  background-color: #b8b8b8;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_button:focus {
-  background-color: #b8b8b8;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .accordion-body {
-  background-color: #ed496c3f;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .pestaña_acordion_parrafo {
-  margin: 10px 0px 0px 0px;
-  font-family: "Roboto", sans-serif;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .btn-copy {
-  border: none;
-  border-radius: 5px;
-  width: 50px;
-  background-color: #b8b8b8;
-  margin-top: 10px;
-  padding: 5px;
-  font-size: 10px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .btn-copy:hover {
-  background-color: #ed496c;
-  color: #F9F9F9;
-}
-.cuerpo-fluid .cuerpo-row .row_contenidos .pestaña .pestaña_acordion .btn-copy:focus {
-  background-color: #ed496c;
-  color: #F9F9F9;
-}
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p {
   margin-bottom: 0;
   display: flex;
@@ -292,14 +252,18 @@ p {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
+  position: relative;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy:hover {
-  background-color: #ed496c;
+  background-color: #525252;
   color: #F9F9F9;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy:focus {
   background-color: #ed496c;
   color: #F9F9F9;
+}
+.cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy::after {
+  background-color: #ed496c;
 }
 
 /*# sourceMappingURL=mobile-vertical.css.map */

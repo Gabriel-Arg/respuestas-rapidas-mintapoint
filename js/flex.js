@@ -1,9 +1,9 @@
 // ----------------------------------------------
-// ASESOR1 - SALUDO INICIAL
+// 10 - INFORMACIÓN
 // ----------------------------------------------
-function copiar1() {       
+function copiar10() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-1').innerText 
+    let copyText = document.getElementById('rr-10').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -14,11 +14,11 @@ function copiar1() {
 }
 
 // ----------------------------------------------
-// ASESOR2 - PREGUNTAMOS
+// 11 - PRECIO
 // ----------------------------------------------
-function copiar2() {       
+function copiar11() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-2').innerText 
+    let copyText = document.getElementById('rr-11').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -29,11 +29,11 @@ function copiar2() {
 }
 
 // ----------------------------------------------
-// MINTA - ¿QUE ES MINTA?
+// 12 - PRECIO RENOVACIÓN
 // ----------------------------------------------
-function copiar3() {  // Cambiar en nombre de la función
+function copiar12() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-3').innerText  // Cambiar en nombre del Id elemnent
+    let copyText = document.getElementById('rr-12').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -44,11 +44,11 @@ function copiar3() {  // Cambiar en nombre de la función
 }
 
 // ----------------------------------------------
-// INDAGAR MEMBRESIA
+// 13 - FORMAS DE PAGO
 // ----------------------------------------------
-function copiar4() {  // Cambiar en nombre de la función
+function copiar13() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-4').innerText  // Cambiar en nombre del Id elemnent
+    let copyText = document.getElementById('rr-13').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -59,11 +59,11 @@ function copiar4() {  // Cambiar en nombre de la función
 }
 
 // ----------------------------------------------
-// INDAGAR EMPRESAS
+// 14 - QUE OPINAS
 // ----------------------------------------------
-function copiar5() {  // Cambiar en nombre de la función
+function copiar14() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-5').innerText  // Cambiar en nombre del Id elemnent
+    let copyText = document.getElementById('rr-14').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -74,11 +74,11 @@ function copiar5() {  // Cambiar en nombre de la función
 }
 
 // ----------------------------------------------
-// INDAGAR AUDITORIO
+// 15 - NO ME LO PENSARIA
 // ----------------------------------------------
-function copiar6() {  // Cambiar en nombre de la función
+function copiar15() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-6').innerText  // Cambiar en nombre del Id elemnent
+    let copyText = document.getElementById('rr-15').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -89,11 +89,11 @@ function copiar6() {  // Cambiar en nombre de la función
 }
 
 // ----------------------------------------------
-// INDAGAR SALA DE REUNIONES
+// 16 - CIERRE 1
 // ----------------------------------------------
-function copiar7() {  // Cambiar en nombre de la función
+function copiar16() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-7').innerText  // Cambiar en nombre del Id elemnent
+    let copyText = document.getElementById('rr-16').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -104,11 +104,11 @@ function copiar7() {  // Cambiar en nombre de la función
 }
 
 // ----------------------------------------------
-// RECOMENDAR MEMBRESIA
+// 17 - CIERRE 2
 // ----------------------------------------------
-function copiar8() {  // Cambiar en nombre de la función
+function copiar17() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-8').innerText  // Cambiar en nombre del Id elemnent
+    let copyText = document.getElementById('rr-17').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -119,11 +119,26 @@ function copiar8() {  // Cambiar en nombre de la función
 }
 
 // ----------------------------------------------
-// RECOMENDAR MEMBRESIA 2
+// 18 - DATOS DE T6RANSFERENCIA
 // ----------------------------------------------
-function copiar9() {  // Cambiar en nombre de la función
+function copiar18() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-9').innerText  // Cambiar en nombre del Id elemnent
+    let copyText = document.getElementById('rr-18').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 19 - CIERRE PERDIDO
+// ----------------------------------------------
+function copiar19() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-19').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
