@@ -1,9 +1,9 @@
 // ----------------------------------------------
-// 177 -  ENCUESTA PARA INVITADO
+// 183 -  DIA DE PRUEBA 1
 // ----------------------------------------------
-function copiar177() {       
+function copiar183() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-177').innerText 
+    let copyText = document.getElementById('rr-183').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -14,11 +14,11 @@ function copiar177() {
 }
 
 // ----------------------------------------------
-// 178 -  ENCUESTA PARA MIEMBROS
+// 184 -  DIA DE PRUEBA 2
 // ----------------------------------------------
-function copiar178() {       
+function copiar184() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-178').innerText 
+    let copyText = document.getElementById('rr-184').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -29,11 +29,11 @@ function copiar178() {
 }
 
 // ----------------------------------------------
-// 179 -  ENCUESTA STREAMING
+// 185 -  DIA DE PRUEBA 3
 // ----------------------------------------------
-function copiar179() {       
+function copiar185() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-179').innerText 
+    let copyText = document.getElementById('rr-185').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
@@ -44,11 +44,26 @@ function copiar179() {
 }
 
 // ----------------------------------------------
-// 180 -  ENCUESTA BIMESTRAL PARA CW
+// 186 -  DATOS FACTURACION
 // ----------------------------------------------
-function copiar180() {       
+function copiar186() {       
     // Crea un input para poder copiar el texto dentro       
-    let copyText = document.getElementById('rr-180').innerText 
+    let copyText = document.getElementById('rr-186').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 187 -  DERIVAR A MH4B
+// ----------------------------------------------
+function copiar187() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-187').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
