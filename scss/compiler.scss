@@ -74,9 +74,14 @@ p {
     // border: 1px dashed black;
     height: 93vh;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
     .cuerpo-row {
         // border: 1px dashed blue;
         height: 100%;
+        width: 490px;
 
         display: flex;
         flex-direction: row;

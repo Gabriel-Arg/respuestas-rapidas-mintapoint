@@ -56,9 +56,13 @@ p {
 
 .cuerpo-fluid {
   height: 93vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 .cuerpo-fluid .cuerpo-row {
   height: 100%;
+  width: 490px;
   display: flex;
   flex-direction: row;
   justify-content: center;
