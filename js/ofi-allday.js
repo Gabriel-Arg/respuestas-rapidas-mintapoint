@@ -134,6 +134,21 @@ function copiar86() {
 }
 
 // ----------------------------------------------
+// 86b - DATOS PARA TRANSFERENCIA
+// ----------------------------------------------
+function copiar86b() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-86b').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
 // 87 - CIERRE PERDIDO
 // ----------------------------------------------
 function copiar87() {       

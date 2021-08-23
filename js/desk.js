@@ -134,6 +134,21 @@ function copiar48() {
 }
 
 // ----------------------------------------------
+// 48b - DATOS DE TRANSFERENCIA
+// ----------------------------------------------
+function copiar48b() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-48b').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
 // 49 - CIERRE PERDIDO
 // ----------------------------------------------
 function copiar49() {       

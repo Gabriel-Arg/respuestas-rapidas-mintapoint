@@ -134,6 +134,21 @@ function copiar18() {
 }
 
 // ----------------------------------------------
+// 18b - cCHECKIN WEB
+// ----------------------------------------------
+function copiar18b() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-18b').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
 // 19 - CIERRE PERDIDO
 // ----------------------------------------------
 function copiar19() {       

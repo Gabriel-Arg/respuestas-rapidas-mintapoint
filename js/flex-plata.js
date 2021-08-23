@@ -134,6 +134,21 @@ function copiar28() {
 }
 
 // ----------------------------------------------
+// 28b - TRANSFERENCIA
+// ----------------------------------------------
+function copiar28b() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-28b').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
 // 29 - CIERRE PERDIDO
 // ----------------------------------------------
 function copiar29() {       
