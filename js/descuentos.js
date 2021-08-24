@@ -161,4 +161,6 @@ function copiar198() {
     document.execCommand("copy");       
     // Delete created Element       
     textArea.remove() 
+
+    alert ('Soy un cartelito fachero')
 }

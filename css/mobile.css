@@ -187,22 +187,18 @@ p {
   font-family: "Roboto", sans-serif;
   position: relative;
 }
-.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p .etiqueta-color {
+.cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p .colapso_p_btn .etiqueta-color {
   padding: 0;
   margin: 0;
-  width: 10px;
+  width: 150px;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  cursor: help;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #indagar {
   background-color: #b8b8b8;
+  width: 50px;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #recomendar {
   background-color: #ed496c;
@@ -275,4 +271,4 @@ p {
   background-color: #ed496c;
 }
 
-/*# sourceMappingURL=mobile-vertical.css.map */
+/*# sourceMappingURL=mobile.css.map */
