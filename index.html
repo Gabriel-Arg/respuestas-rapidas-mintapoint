@@ -130,10 +130,32 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#inicio-1" aria-expanded="false" 
                             aria-controls="inicio-1">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1"> <!-- Cambiar el ID por cada modal -->
+                            <p>?</p>
+                            </div> <!-- Cambiar el color CSS -->
+
                             /ASESOR1 - Saludo inicial
                         </button>
                     </p>
+
+                    <!-- ----------------MODAL AYUDA PARA EL ASESOR------------------------------------- -->
+                    <!-- Cambiar el ID por cada modal -->
+                    <div class="modal fade" id="modal-1" 
+                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivo:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Con éste mensaje iniciaremos la conversación con una persona que nos contacte por primera vez.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- MENSAJE-------------------- -->
                     <div class="collapse" id="inicio-1">
