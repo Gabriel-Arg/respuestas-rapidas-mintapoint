@@ -27,7 +27,7 @@ p {
 
 .header-fluid {
   height: 40px;
-  background-color: #F9F9F9;
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -80,7 +80,7 @@ p {
   align-items: center;
 }
 .cuerpo-fluid .cuerpo-row .row_botones {
-  background-color: #F9F9F9;
+  background-color: #ffffff;
   padding: 0px;
   margin: 0;
   height: 100%;
@@ -120,7 +120,7 @@ p {
   border: 4px solid #ed496c;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos {
-  background-color: #F9F9F9;
+  background-color: #ffffff;
   height: 100%;
   width: 65%;
   padding: 0;
@@ -282,11 +282,11 @@ p {
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy:hover {
   background-color: #525252;
-  color: #F9F9F9;
+  color: #ffffff;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy:focus {
   background-color: #ed496c;
-  color: #F9F9F9;
+  color: #ffffff;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .btn-copy::after {
   background-color: #ed496c;
