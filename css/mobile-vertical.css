@@ -178,6 +178,7 @@ p {
 .cuerpo-fluid .cuerpo-row .row_contenidos .pestaña h2 {
   background-color: #ed496c;
   height: 35px;
+  margin-bottom: 2px;
   text-align: center;
   font-size: 1rem;
   display: flex;
