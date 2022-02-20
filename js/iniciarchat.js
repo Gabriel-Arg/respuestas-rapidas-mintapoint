@@ -132,3 +132,18 @@ function copiar9() {  // Cambiar en nombre de la función
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// RECOMENDAR MEMBRESIA 2
+// ----------------------------------------------
+function copiar9b() {  // Cambiar en nombre de la función
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-9b').innerText  // Cambiar en nombre del Id elemnent
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}

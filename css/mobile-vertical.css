@@ -177,8 +177,12 @@ p {
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .pestaña h2 {
   background-color: #ed496c;
-  height: 40px;
+  height: 35px;
   text-align: center;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .pestaña #p-subtitulo {
   text-align: center;
