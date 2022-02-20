@@ -35,12 +35,23 @@ p {
     height: 40px;
     background-color: $color-blanco;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
     .header-container {
-        // border: 1px dashed gray;
+        border: 1px dashed gray;
+        margin: 0;
         height: 100%;
 
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+
         .header-row {
-            // border: 1px dashed cyan;
+            border: 1px dashed cyan;
             height: 100%;
 
             display: flex;
@@ -49,7 +60,7 @@ p {
             align-items: center;
 
             h1 {
-                margin: 0 20px;
+                margin: 0 2rem 0 0;
                 font-size: 1rem;
                 width: auto;
                 color: $color-gris-oscuro;
