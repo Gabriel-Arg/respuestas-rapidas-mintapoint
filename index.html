@@ -67,6 +67,7 @@
 
                 <button class="tablinks" onclick="openCity(event, 'chat')">SALUDO INICIAL</button>
                 <button class="tablinks" onclick="openCity(event, 'otrosmensajes')">DATOS IMPORTANTES</button>
+                <button class="tablinks" onclick="openCity(event, 'encuesta')">ENCUESTA</button>
                 <button class="tablinks" onclick="openCity(event, 'flex')">FLEX</button>
                 <button class="tablinks" onclick="openCity(event, 'flex_plata')">FLEX PLATA</button>
                 <button class="tablinks" onclick="openCity(event, 'flex_oro')">FLEX ORO</button>
@@ -84,7 +85,7 @@
                 <button class="tablinks" onclick="openCity(event, 'streaming')">STREAMING</button>
                 <button class="tablinks" onclick="openCity(event, 'catering')">CATERING</button>
                 <button class="tablinks" onclick="openCity(event, 'audiovisual')">AUDIOVISUAL</button>
-                <button class="tablinks" onclick="openCity(event, 'encuesta')">ENCUESTA</button>
+                
                 <button class="tablinks" onclick="openCity(event, 'nuevoscw')">NUEVOS CW</button>
                 
                 <button class="tablinks" onclick="openCity(event, 'descuentos')">DESCUENTOS</button>
@@ -684,7 +685,105 @@
 
                 </div>
 
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <!-- ----------------ENCUESTA DE SATISFACCIÓN------------------------------ -->
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <div id="encuesta" class="tabcontent pestaña">
+                    <h2>E. DE SATISFACCION</h2>
 
+                    <!-- SUBTITULO -->
+                    <!-- <p id="p-subtitulo">Sala de Reuniones o Conferencias</p> -->
+                    
+                    <!-- ---------ENCUESTA 1 PARA INVITADOS--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#encuesta-1" aria-expanded="false" 
+                            aria-controls="encuesta-1"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            No miembros
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="encuesta-1"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-177">
+                            
+                            Falta la información...
+
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar177()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------ENCUESTA 2 PARA MIEMBROS--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <!-- <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#encuesta-2" aria-expanded="false" 
+                            aria-controls="encuesta-2"> 
+                            <div id="indagar" class="etiqueta-color"></div> 
+                            /SATISFACCIÓNMIEMBRO - para miembro
+                        </button>
+                    </p> -->
+                    <!-- MENSAJE-------------- -->
+                    <!-- <div class="collapse" id="encuesta-2"> 
+                        <div class="card card-body colapso_mje" id="rr-178">
+                            
+                            Hola (nombre de la persona)! Esperamos hayas disfrutado de nuestro espacio 😊. Nos interesa
+                            mucho seguir creciendo para tu próxima visita. Podríamos molestarte con la siguiente
+                            encuesta de satisfacción? <br><br>
+                            https://form.jotform.com/202803216886053
+                            <br><br>
+                            Muchas graciasss! Y te esperamos pronto 😊
+
+                        </div> -->
+
+                        <!-- BOTON COPIAR----- -->
+                        <!-- <button class="btn-copy" onclick="copiar178()">
+                            Copiar
+                        </button>
+                    </div> -->
+
+                    <!-- SUBTITULO -->
+                    <!-- <p id="p-subtitulo">Live Streaming</p> -->
+
+                    <!-- Acá había antes una encuesta para live streaming pero se la sacó
+                    de todos modos quedo la función de copiar en el archivo streaming.js -->
+                    
+                    <!-- SUBTITULO -->
+                    <!-- <p id="p-subtitulo">Encuesta Bimestral para CW</p> -->
+
+                    <!-- ---------ENCUESTA 4 BIMESTRAL PARA CW--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <!-- <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#encuesta-4" aria-expanded="false" 
+                            aria-controls="encuesta-4"> 
+                            <div id="indagar" class="etiqueta-color"></div> 
+                            /SATISFACCIÓNCW - Coworkers bimestral
+                        </button>
+                    </p> -->
+                    <!-- MENSAJE-------------- -->
+                    <!-- <div class="collapse" id="encuesta-4"> 
+                        <div class="card card-body colapso_mje" id="rr-180">
+                            Hola (nombre de la persona)! Esperamos hayas disfrutado de nuestros servicios durante
+                            éstos últimos dos meses. Nos interesa mucho seguir creciendo para poder bríndar lo mejor. 
+                            Podríamos molestarte con la siguiente encuesta de satisfacción? <br><br>
+                            https://form.jotform.com/210474248167053 
+                            <br><br>
+                            Muchas graciasss! 😊
+                        </div> -->
+
+                        <!-- BOTON COPIAR----- -->
+                        <!-- <button class="btn-copy" onclick="copiar180()">
+                            Copiar
+                        </button>
+                    </div> -->
+
+                </div>
 
 
 
@@ -5540,110 +5639,7 @@
                 </div>
             
         
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <!-- ----------------ENCUESTA DE SATISFACCIÓN------------------------------ -->
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <div id="encuesta" class="tabcontent pestaña">
-                    <h2>E. DE SATISFACCION</h2>
-
-                    <!-- SUBTITULO -->
-                    <p id="p-subtitulo">Sala de Reuniones o Conferencias</p>
-                    
-                    <!-- ---------ENCUESTA 1 PARA INVITADOS--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#encuesta-1" aria-expanded="false" 
-                            aria-controls="encuesta-1"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /SATISFACCIÓNNOMIEMBRO
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="encuesta-1"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-177">
-                            
-                            Hola! Somos MINTA 😊. Esperamos hayas disfrutado tu experiencia en nuestro espacio. 
-                            Nos interesa seguir creciendo para tu próxima visita. Podríamos molestarte unos 
-                            segundos con esta encuesta de satisfacción? <br><br>
-                            https://form.jotform.com/202803216886053
-                            <br><br>
-                            Muchisimas graciass! Y te esperamos pronto 😊
-
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar177()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------ENCUESTA 2 PARA MIEMBROS--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#encuesta-2" aria-expanded="false" 
-                            aria-controls="encuesta-2"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /SATISFACCIÓNMIEMBRO - para miembro
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="encuesta-2"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-178">
-                            
-                            Hola (nombre de la persona)! Esperamos hayas disfrutado de nuestro espacio 😊. Nos interesa
-                            mucho seguir creciendo para tu próxima visita. Podríamos molestarte con la siguiente
-                            encuesta de satisfacción? <br><br>
-                            https://form.jotform.com/202803216886053
-                            <br><br>
-                            Muchas graciasss! Y te esperamos pronto 😊
-
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar178()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- SUBTITULO -->
-                    <!-- <p id="p-subtitulo">Live Streaming</p> -->
-
-                    <!-- Acá había antes una encuesta para live streaming pero se la sacó
-                    de todos modos quedo la función de copiar en el archivo streaming.js -->
-                    
-                    <!-- SUBTITULO -->
-                    <p id="p-subtitulo">Encuesta Bimestral para CW</p>
-
-                    <!-- ---------ENCUESTA 4 BIMESTRAL PARA CW--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#encuesta-4" aria-expanded="false" 
-                            aria-controls="encuesta-4"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /SATISFACCIÓNCW - Coworkers bimestral
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="encuesta-4"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-180">
-                            Hola (nombre de la persona)! Esperamos hayas disfrutado de nuestros servicios durante
-                            éstos últimos dos meses. Nos interesa mucho seguir creciendo para poder bríndar lo mejor. 
-                            Podríamos molestarte con la siguiente encuesta de satisfacción? <br><br>
-                            https://form.jotform.com/210474248167053 
-                            <br><br>
-                            Muchas graciasss! 😊
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar180()">
-                            Copiar
-                        </button>
-                    </div>
-
-                </div>
+                
 
 
                 <!-- ---------------------------------------------------------------------------------------------- -->
