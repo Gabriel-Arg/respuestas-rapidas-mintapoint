@@ -71,11 +71,12 @@
                 <button class="tablinks" onclick="openCity(event, 'descuentos')">DESCUENTOS</button>
                 <button class="tablinks" onclick="openCity(event, 'catering')">CATERING</button>
                 <button class="tablinks" onclick="openCity(event, 'audiovisual')">AUDIOVISUAL</button>
+                <button class="tablinks" onclick="openCity(event, 'daypass')">PASES</button>
                 <button class="tablinks" onclick="openCity(event, 'flex')">FLEX</button>
                 <button class="tablinks" onclick="openCity(event, 'flex_plata')">FLEX PLATA</button>
                 <button class="tablinks" onclick="openCity(event, 'flex_oro')">FLEX ORO</button>
                 <button class="tablinks" onclick="openCity(event, 'desk')">DESK</button>
-                <button class="tablinks" onclick="openCity(event, 'daypass')">DAY PASS</button>
+                
                 <button class="tablinks" onclick="openCity(event, 'pack5')">PACK 5 DÍAS</button>
                 <button class="tablinks" onclick="openCity(event, 'ofi1')">OFI. 1/2 DÍA</button>
                 <button class="tablinks" onclick="openCity(event, 'ofi2')">OFI. ALL DAY</button>
@@ -1285,6 +1286,251 @@
 
                 </div>
 
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <!-- ----------------DAY PASS------------------------------ -->
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <div id="daypass" class="tabcontent pestaña">
+                    <h2>MEDIO DAY PASS</h2>
+                    
+                    <!-- ---------iNFORME DE LA MEMBRESIA--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#desk-3" aria-expanded="false" 
+                            aria-controls="desk-3"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Recomendar Day Pass
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="desk-3"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-50">
+
+                            <!-- IMAGEN DE LA MEMBRESIA -->
+                            <figure class="foto-membre">
+                                <img src="img/Pase-Medio-Día.jpg" alt="Day Pass">
+                            </figure>
+
+                            El mismo no te convierte en miembro, pero te permite acceder a nuestro espacio compartido!
+                            Por los horarios y días que me contabas, creo que sería una gran oportunidad!
+
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar50()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------PRECIO-------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#desk-4" aria-expanded="false" 
+                            aria-controls="desk-4">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Precio
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="desk-4">
+                        <div class="card card-body colapso_mje" id="rr-51">
+                            El valor es de 1.200 IVA incluído y en cualquier método de pago.
+                        </div>
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar51()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------FORMAS DE PAGO-------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#desk-6" aria-expanded="false" 
+                            aria-controls="desk-6"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            ¿Está conforme?
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="desk-6"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-52">
+                            (Nombre de la persona) crees que esta opción te beneficiaría? 
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar52()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------ES LA OPCION CORRECTA--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-7" aria-expanded="false" 
+                            aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-daypass-1">
+                                <p>?</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Si dice que si - Impulsar el cierre
+                        </button>
+                    </p>
+
+                    <!-- ----------------MODAL AYUDA PARA EL ASESOR------------------------------------- -->
+                    <!-- Cambiar el ID por cada modal -->
+                    <div class="modal fade" id="modal-daypass-1" 
+                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivo:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Si dice que si, ver medio de pago.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-7"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-53">
+                            Espectacular! Te gustaría reservar tu medio day pass hoy?
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar53()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------RECOMENDAR MEMBRESIA 3--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-8" aria-expanded="false" 
+                            aria-controls="flexplata-8"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Si dice que tiene que pensarlo o hablarlo con alguien
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-8"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-54">
+                            Me parece perfecto (nombre de la persona)! Podés abonarlo el día que decidas venir, lo que si, 
+                            no puedo asegurarte disponibilidad. Y cualquier duda, aquí estoy para ayudarte 😃
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar54()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------CIERRE 1--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-9" aria-expanded="false" 
+                            aria-controls="flexplata-9"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="cierre" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /CIERREP2 - Para cierre 1
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-9"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-55">
+                            Que bueno! Nos encantaría recibirte como nuev(a/o) coworker 😃 <br>
+                            Te gustaría reservar ahora tu lugar? 
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar55()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------CIERRE 2--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-10" aria-expanded="false" 
+                            aria-controls="flexplata-10"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="cierre" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /CIERREP - Para cierre 2
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-10"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-56">
+                            Cuál de nuestras formas de pago te gustaría utilizar?  
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar56()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------DATOS DE TRANSFERENCIA--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-11" aria-expanded="false" 
+                            aria-controls="flexplata-11"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="transferencia" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /DATOSTRANSFERENCIA - Transferencia
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-11"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-57">
+                            Te paso nuestros datos para que puedas realizar tu transferencia 😊 <br><br>
+                            Banco Macro <br>
+                            Venezia SAS <br>
+                            C/c n°: 320009419471320 <br>
+                            CBU: 2850200930094194713201 <br>
+                            CUIT: 30716767155 <br>
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar57()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------CIERRE PERDIDO--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-15" aria-expanded="false" 
+                            aria-controls="flexplata-15"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="cierre-perdido" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            /CIERREPERDIDO - Cierre perdido
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-15"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-58">
+                            Comprendo totalmente la situación! Quedo a disposición para lo que necesites 😊 <br>
+                            Y te invito a que visites cuando quieras nuestro café de negocios 
+                            (ubicado dentro del coworking), simplemente para que no te quedes 
+                            sin vivir la experiencia MINTA! <br> 
+                            Saludos (nombre de la persona) y que estés muy bien.
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar58()">
+                            Copiar
+                        </button>
+                    </div>
+
+                </div>
 
 
 
@@ -2673,238 +2919,14 @@
 
                 </div>
 
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <!-- ----------------DAY PASS------------------------------ -->
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <div id="daypass" class="tabcontent pestaña">
-                    <h2>DAY PASS</h2>
-                    
-                    <!-- ---------iNFORME DE LA MEMBRESIA--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#desk-3" aria-expanded="false" 
-                            aria-controls="desk-3"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /RECOMENDARMEDIODAY - Información
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="desk-3"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-50">
 
-                            <!-- IMAGEN DE LA MEMBRESIA -->
-                            <figure class="foto-membre">
-                                <img src="img/membresia-medio-daypass.jpg" alt="Day Pass">
-                            </figure>
 
-                            El Medio Day Pass te permite acceder media jornada (de 9 a 14 h o de 14h a 20h) a nuestro
-                            espacio común. <br>
-                            Podés realizar impresiones (hasta 10 hojas) y utilizar internet de alta velocidad.
-                            Éste no te convierte en Miembro, lo cual te traería muchísimos más beneficios, pero te
-                            permite acceder y poder disfrutar de la experiencia MINTA!
 
-                        </div>
 
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar50()">
-                            Copiar
-                        </button>
-                    </div>
 
-                    <!-- ---------PRECIO-------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#desk-4" aria-expanded="false" 
-                            aria-controls="desk-4">
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /PRECIOMEDIODAY - Precio
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="desk-4">
-                        <div class="card card-body colapso_mje" id="rr-51">
-                            El valor del Medio Day Pass es de $ 800 IVA incluído.
-                        </div>
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar51()">
-                            Copiar
-                        </button>
-                    </div>
 
-                    <!-- ---------FORMAS DE PAGO-------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#desk-6" aria-expanded="false" 
-                            aria-controls="desk-6"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /PAGOMEMBRE - Formas de pago
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="desk-6"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-52">
-                            Recordá (nombre de la persona) que no necesitas garantes ni mes de
-                            depósito para acceder al espacio. Cuando decidas venir, agarrás tu
-                            compu o tus materiales de trabajo y listo! Comenzás a trabajar 😊
-                            Incluso, podés pagar como vos desees (efectivo, transferencia 
-                            bancaria, tarjeta de crédito, criptomonedas) y el pago puede ser 
-                            por un mes o los que quieras (cuánto más meses pagues,
-                            más beneficios!)
-                        </div>
 
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar52()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------ES LA OPCION CORRECTA--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-7" aria-expanded="false" 
-                            aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /ESOPCIONCORRECTA2 - Preguntamos
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-7"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-53">
-                            Qué opinás sobre esta propuesta? Crees que te beneficiaría?
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar53()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------RECOMENDAR MEMBRESIA 3--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-8" aria-expanded="false" 
-                            aria-controls="flexplata-8"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /RECOMENDARMEMBRE3 - Recomendar 3
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-8"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-54">
-                            Yo no me lo pensaría tanto! Vos y tu profesión se merecen disfrutar 
-                            de todos estos beneficios 😃
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar54()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------CIERRE 1--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-9" aria-expanded="false" 
-                            aria-controls="flexplata-9"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="cierre" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /CIERREP2 - Para cierre 1
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-9"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-55">
-                            Que bueno! Nos encantaría recibirte como nuev(a/o) coworker 😃 <br>
-                            Te gustaría reservar ahora tu lugar? 
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar55()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------CIERRE 2--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-10" aria-expanded="false" 
-                            aria-controls="flexplata-10"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="cierre" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /CIERREP - Para cierre 2
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-10"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-56">
-                            Cuál de nuestras formas de pago te gustaría utilizar?  
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar56()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------DATOS DE TRANSFERENCIA--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-11" aria-expanded="false" 
-                            aria-controls="flexplata-11"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="transferencia" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /DATOSTRANSFERENCIA - Transferencia
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-11"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-57">
-                            Te paso nuestros datos para que puedas realizar tu transferencia 😊 <br><br>
-                            Banco Macro <br>
-                            Venezia SAS <br>
-                            C/c n°: 320009419471320 <br>
-                            CBU: 2850200930094194713201 <br>
-                            CUIT: 30716767155 <br>
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar57()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------CIERRE PERDIDO--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-15" aria-expanded="false" 
-                            aria-controls="flexplata-15"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="cierre-perdido" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /CIERREPERDIDO - Cierre perdido
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-15"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-58">
-                            Comprendo totalmente la situación! Quedo a disposición para lo que necesites 😊 <br>
-                            Y te invito a que visites cuando quieras nuestro café de negocios 
-                            (ubicado dentro del coworking), simplemente para que no te quedes 
-                            sin vivir la experiencia MINTA! <br> 
-                            Saludos (nombre de la persona) y que estés muy bien.
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar58()">
-                            Copiar
-                        </button>
-                    </div>
-
-                </div>
+                
 
                 <!-- ---------------------------------------------------------------------------------------------- -->
                 <!-- ----------------PACK 5 DIAS------------------------------ -->
