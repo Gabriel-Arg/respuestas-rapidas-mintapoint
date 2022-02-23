@@ -69,6 +69,8 @@
                 <button class="tablinks" onclick="openCity(event, 'otrosmensajes')">DATOS IMPORTANTES</button>
                 <button class="tablinks" onclick="openCity(event, 'encuesta')">ENCUESTA</button>
                 <button class="tablinks" onclick="openCity(event, 'descuentos')">DESCUENTOS</button>
+                <button class="tablinks" onclick="openCity(event, 'catering')">CATERING</button>
+                <button class="tablinks" onclick="openCity(event, 'audiovisual')">AUDIOVISUAL</button>
                 <button class="tablinks" onclick="openCity(event, 'flex')">FLEX</button>
                 <button class="tablinks" onclick="openCity(event, 'flex_plata')">FLEX PLATA</button>
                 <button class="tablinks" onclick="openCity(event, 'flex_oro')">FLEX ORO</button>
@@ -84,12 +86,8 @@
                 <button class="tablinks" onclick="openCity(event, 'auditoriomas30p')">AUDITORIO 50p</button>
                 <button class="tablinks" onclick="openCity(event, 'sreuniones')">S. REUNIONES</button>
                 <button class="tablinks" onclick="openCity(event, 'streaming')">STREAMING</button>
-                <button class="tablinks" onclick="openCity(event, 'catering')">CATERING</button>
-                <button class="tablinks" onclick="openCity(event, 'audiovisual')">AUDIOVISUAL</button>
                 
                 <button class="tablinks" onclick="openCity(event, 'nuevoscw')">NUEVOS CW</button>
-                
-                
 
             </div>
 
@@ -1070,6 +1068,226 @@
                     </div>
 
                 </div>
+
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <!-- ----------------CATERING------------------------------ -->
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <div id="catering" class="tabcontent pestaña">
+                    <h2>CATERING</h2>
+                    
+                    <!-- ---------INDAGAR CATERING--------------------- -->
+                    <!-- BOTON------------------------->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#inicio-9" aria-expanded="false" 
+                            aria-controls="inicio-9">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Primer mensaje
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------------- -->
+                    <div class="collapse" id="inicio-9">
+                        <div class="card card-body colapso_mje" id="rr-169">
+                            
+                            Mirá (nombre de la persona), nosotros tenemos estas 3 opciones armadas que son las que más
+                            salen.
+                            Los precios son por persona y ya incluyen IVA.
+                            Crees que alguno se adapta a lo que estabas buscando?
+                            Sino, podemos armarte algo a medida sin ningún problema.
+
+                        </div>
+                        <!-- BOTON COPIAR----------- -->
+                        <button class="btn-copy" onclick="copiar169()">
+                            Copiar
+                        </button>
+                    </div>
+
+
+                    <!-- --------INFORMACIÓN DE CATERING--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#desk-3" aria-expanded="false" 
+                            aria-controls="desk-3"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Si pide algo a medida
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="desk-3"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-170">
+
+                            Excelente! Podrías contarme para cuántas personas sería? Y que te gustaría que incluyamos?
+
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar170()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------PRECIO NO MIEMBRO--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#desk-4" aria-expanded="false" 
+                            aria-controls="desk-4">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Si decide contratar
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="desk-4">
+                        <div class="card card-body colapso_mje" id="rr-171">
+                            Buenisimo (nombre de la persona)! El total para (escribir el n° de personas que solicitó)
+                            personas sería de (escribir monto sin $ y sin , o.) IVA incluído.
+                            Existe alguna consideración que debamos tener en cuenta? Ejemplo, alguna persona
+                            vegetariana, celíaca, etc...
+                        </div>
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar171()"> 
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------PRECIO TOTAL--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <!-- <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-7" aria-expanded="false" 
+                            aria-controls="flexplata-7">  -->
+                            <!-- cambiar target y controls con el numero de membresia -->
+                            <!-- Cambiar el color CSS -->
+                            <!-- <div id="indagar" class="etiqueta-color"></div> 
+                            /PRECIOTOTAL- Precio 2
+                        </button>
+                    </p> -->
+                    <!-- MENSAJE-------------- -->
+                    <!-- cambiar ID con el numero de membresia -->
+                    <!-- <div class="collapse" id="flexplata-7"> 
+                        <div class="card card-body colapso_mje" id="rr-172">
+                            Para pasar en limpio, el total a abonar por los servicios de (describir servicios) es de $ (escribir valor) IVA incluído.
+                        </div> -->
+
+                        <!-- BOTON COPIAR----- -->
+                        <!-- <button class="btn-copy" onclick="copiar172()">
+                            Copiar
+                        </button>
+                    </div> -->
+
+                </div>
+
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <!-- ----------------AUDIO VISUAL------------------------------ -->
+                <!-- ---------------------------------------------------------------------------------------------- -->
+                <div id="audiovisual" class="tabcontent pestaña">
+                    <h2>AUDIOVISUAL</h2>
+                    
+                    <!-- ---------INDAGAR AUDIOVISUAL--------------------- -->
+                    <!-- BOTON------------------------->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#inicio-9" aria-expanded="false" 
+                            aria-controls="inicio-9">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Indagar
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------------- -->
+                    <div class="collapse" id="inicio-9">
+                        <div class="card card-body colapso_mje" id="rr-173">
+                            
+                            (Nombre de la persona) para poder cotizarte el servicio audiovisual contame, cuántos micrófonos 
+                            necesitarían? Les gustaría grabar el evento? En formato video o con fotografías? 😊
+
+                        </div>
+                        <!-- BOTON COPIAR----------- -->
+                        <button class="btn-copy" onclick="copiar173()">
+                            Copiar
+                        </button>
+                    </div>
+
+
+                    <!-- --------INFORMACIÓN DE AUDIOVISUAL-------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#desk-3" aria-expanded="false" 
+                            aria-controls="desk-3"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Recomendar
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="desk-3"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-174">
+
+                            Bueno, te cuento que para lo que me comentabas tenemos la siguiente opción: <br>
+                            <ul>
+                                <li>▸ x micrófonos</li>
+                                <li>▸ Equipo de audio</li>
+                                <li>▸ x fotografías enviadas a través de un link de drive</li>
+                            </ul>
+                            <br> 
+
+                            ¿Qué opinas? ¿Es lo que estabas buscando?
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar174()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------PRECIO NO MIEMBRO--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#desk-4" aria-expanded="false" 
+                            aria-controls="desk-4">
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Precio
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="desk-4">
+                        <div class="card card-body colapso_mje" id="rr-175">
+                            Buenisimo! El valor de la producción audiovisual sería de $ (escribir valor) IVA incluído 😁
+                        </div>
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar175()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------PRECIO TOTAL--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-7" aria-expanded="false" 
+                            aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            Total del presupuesto
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-7"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-176">
+                            Para pasar en limpio, el total a abonar por los servicios de (describir servicios) es de $ (escribir valor) IVA incluído.
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar176()">
+                            Copiar
+                        </button>
+                    </div>
+
+                </div>
+
+
+
+
 
 
 
@@ -5709,218 +5927,18 @@
                 </div>
 
 
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <!-- ----------------CATERING------------------------------ -->
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <div id="catering" class="tabcontent pestaña">
-                    <h2>CATERING</h2>
-                    
-                    <!-- ---------INDAGAR CATERING--------------------- -->
-                    <!-- BOTON------------------------->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#inicio-9" aria-expanded="false" 
-                            aria-controls="inicio-9">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /INDARCATERING - Catering
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------------- -->
-                    <div class="collapse" id="inicio-9">
-                        <div class="card card-body colapso_mje" id="rr-169">
-                            (Nombre de la persona) para poder cotizarte el catering contame, les gustaría algo salado o dulce? 
-                            O una combinación entre ambos? Hay algo que debamos tener en cuenta (ejemplo, personas celíacas)? 😊
-                        </div>
-                        <!-- BOTON COPIAR----------- -->
-                        <button class="btn-copy" onclick="copiar169()">
-                            Copiar
-                        </button>
-                    </div>
 
 
-                    <!-- --------INFORMACIÓN DE CATERING--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#desk-3" aria-expanded="false" 
-                            aria-controls="desk-3"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /RECOMENDARCATERING - Información
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="desk-3"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-170">
-
-                            Bueno, te cuento que para lo que me comentabas tenemos la siguiente opción: <br><br>
-                            <ul>
-                                <li>▸ Infusión caliente a elección</li>
-                                <li>▸ Agua mineral con o sin gas</li>
-                                <li>▸ Medialunas</li>
-                                <li>▸ Bizcochos</li>
-                            </ul>
-                            <br> 
-
-                            Todo esto es por persona y servido en vajilla.
-
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar170()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------PRECIO NO MIEMBRO--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#desk-4" aria-expanded="false" 
-                            aria-controls="desk-4">
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /PRECIOCATERING - Precio
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="desk-4">
-                        <div class="card card-body colapso_mje" id="rr-171">
-                            El valor por persona es de $ (escribir valor) IVA incluído 😁
-                        </div>
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar171()"> 
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------PRECIO TOTAL--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-7" aria-expanded="false" 
-                            aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /PRECIOTOTAL- Precio 2
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-7"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-172">
-                            Para pasar en limpio, el total a abonar por los servicios de (describir servicios) es de $ (escribir valor) IVA incluído.
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar172()">
-                            Copiar
-                        </button>
-                    </div>
-
-                </div>
 
 
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <!-- ----------------AUDIO VISUAL------------------------------ -->
-                <!-- ---------------------------------------------------------------------------------------------- -->
-                <div id="audiovisual" class="tabcontent pestaña">
-                    <h2>AUDIOVISUAL</h2>
-                    
-                    <!-- ---------INDAGAR AUDIOVISUAL--------------------- -->
-                    <!-- BOTON------------------------->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#inicio-9" aria-expanded="false" 
-                            aria-controls="inicio-9">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /INDARCATERING - Audio visual
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------------- -->
-                    <div class="collapse" id="inicio-9">
-                        <div class="card card-body colapso_mje" id="rr-173">
-                            (Nombre de la persona) para poder cotizarte el servicio audiovisual contame, cuántos micrófonos necesitarían? 
-                            Les gustaría grabar el evento? En formato video o con fotografías? 😊
-                        </div>
-                        <!-- BOTON COPIAR----------- -->
-                        <button class="btn-copy" onclick="copiar173()">
-                            Copiar
-                        </button>
-                    </div>
 
 
-                    <!-- --------INFORMACIÓN DE AUDIOVISUAL-------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#desk-3" aria-expanded="false" 
-                            aria-controls="desk-3"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /RECOMENDARCATERING - Información
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="desk-3"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-174">
 
-                            Bueno, te cuento que para lo que me comentabas tenemos la siguiente opción: <br><br>
-                            <ul>
-                                <li>▸ x micrófonos</li>
-                                <li>▸ Equipo de audio</li>
-                                <li>▸ x fotografías enviadas a través de un link de drive</li>
-                            </ul>
-                            <br> 
 
-                            ¿Qué opinas? ¿Es lo que estabas buscando?
-                        </div>
+                
 
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar174()">
-                            Copiar
-                        </button>
-                    </div>
 
-                    <!-- ---------PRECIO NO MIEMBRO--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#desk-4" aria-expanded="false" 
-                            aria-controls="desk-4">
-                            <div id="recomendar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /PRECIOCATERING - Precio
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="desk-4">
-                        <div class="card card-body colapso_mje" id="rr-175">
-                            Buenisimo! El valor de la producción audiovisual sería de $ (escribir valor) IVA incluído 😁
-                        </div>
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar175()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------PRECIO TOTAL--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flexplata-7" aria-expanded="false" 
-                            aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            /PRECIOTOTAL- Precio 2
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flexplata-7"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-176">
-                            Para pasar en limpio, el total a abonar por los servicios de (describir servicios) es de $ (escribir valor) IVA incluído.
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar176()">
-                            Copiar
-                        </button>
-                    </div>
-
-                </div>
+                
             
         
                 
