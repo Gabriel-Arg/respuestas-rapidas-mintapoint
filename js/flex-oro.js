@@ -162,3 +162,33 @@ function copiar39() {
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// 40 - NO DICE FECHA
+// ----------------------------------------------
+function copiaroro40() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-oro-40').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41b - NO ABONA
+// ----------------------------------------------
+function copiar41b() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41b').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
