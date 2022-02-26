@@ -192,3 +192,198 @@ function copiar41b() {
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// 41c - VOLVER A CONTACTAR
+// ----------------------------------------------
+function copiar41c() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41c').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41d - QUIERE CONTRATAR
+// ----------------------------------------------
+function copiar41d() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41d').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41e - DICE QUE SI
+// ----------------------------------------------
+function copiar41e() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41e').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41f - ABONA
+// ----------------------------------------------
+function copiar41f() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41f').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41g - QUIERE SEGUIR PENSANDOLO
+// ----------------------------------------------
+function copiar41g() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41g').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41h - NO ABONA
+// ----------------------------------------------
+function copiar41h() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41h').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41i - CONTACTGAR A LOS 3 DIAS
+// ----------------------------------------------
+function copiar41i() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41i').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41j - QUIERE CONTRATAR
+// ----------------------------------------------
+function copiar41j() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41j').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41k - DICE QUE SI
+// ----------------------------------------------
+function copiar41k() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41k').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41l - ABONA
+// ----------------------------------------------
+function copiar41l() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41l').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41m - QUIERE SEGUIR PENSÁNDOLO
+// ----------------------------------------------
+function copiar41m() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41m').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41n - NO ABONA
+// ----------------------------------------------
+function copiar41n() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41n').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 41o - CIERRE
+// ----------------------------------------------
+function copiar41o() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-41o').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
