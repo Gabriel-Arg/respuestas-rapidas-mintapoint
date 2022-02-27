@@ -1,5 +1,5 @@
 // ----------------------------------------------
-// 40 - INFORMACION DE LA MEMBRESIA
+// 40 - RECOMENDAR DESK
 // ----------------------------------------------
 function copiar40() {       
     // Crea un input para poder copiar el texto dentro       
@@ -44,7 +44,7 @@ function copiar42() {
 }
 
 // ----------------------------------------------
-// 43 - FORMAS DE PAGO
+// 43 - ESTA CONFORME?
 // ----------------------------------------------
 function copiar43() {       
     // Crea un input para poder copiar el texto dentro       
