@@ -268,3 +268,78 @@ function copiar77g() {
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// 77h - DICE QUE SI
+// ----------------------------------------------
+function copiar77h() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77h').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 77i - ABONA
+// ----------------------------------------------
+function copiar77i() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77i').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 77j - QUIERE SEGUIR PENSANDOLO
+// ----------------------------------------------
+function copiar77j() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77j').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 77k - NO ABONA
+// ----------------------------------------------
+function copiar77k() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77k').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 77l - CIERRE
+// ----------------------------------------------
+function copiar77l() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77l').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
