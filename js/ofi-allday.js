@@ -1,5 +1,5 @@
 // ----------------------------------------------
-// 78 - CIERRE PERDIDO
+// 78 - RECOMENDAR OFICINA VIRTUAL
 // ----------------------------------------------
 function copiar78() {       
     // Crea un input para poder copiar el texto dentro       
@@ -44,7 +44,7 @@ function copiar80() {
 }
 
 // ----------------------------------------------
-// 81 - FORMAS DE PAGO
+// 81 - ESTA CONFORME?
 // ----------------------------------------------
 function copiar81() {       
     // Crea un input para poder copiar el texto dentro       
@@ -59,7 +59,7 @@ function copiar81() {
 }
 
 // ----------------------------------------------
-// 82 - ES OPCION CORRECTA
+// 82 - DICE QUE SI IMPULSAR EL CIERRE
 // ----------------------------------------------
 function copiar82() {       
     // Crea un input para poder copiar el texto dentro       
@@ -74,7 +74,7 @@ function copiar82() {
 }
 
 // ----------------------------------------------
-// 83 - RECOMENDAR MEMBRESIA 3
+// 83 - SI DICE FECHA
 // ----------------------------------------------
 function copiar83() {       
     // Crea un input para poder copiar el texto dentro       
@@ -89,7 +89,7 @@ function copiar83() {
 }
 
 // ----------------------------------------------
-// 84 -CIERRE 1
+// 84 -SI DICE QUE SI
 // ----------------------------------------------
 function copiar84() {       
     // Crea un input para poder copiar el texto dentro       
@@ -104,7 +104,7 @@ function copiar84() {
 }
 
 // ----------------------------------------------
-// 85 -CIERRE 2
+// 85 -ABONA
 // ----------------------------------------------
 function copiar85() {       
     // Crea un input para poder copiar el texto dentro       
@@ -119,7 +119,7 @@ function copiar85() {
 }
 
 // ----------------------------------------------
-// 86 - DATOS PARA TRANSFERENCIA
+// 86 - SI NO DICE FECHA Y QUIERE PENSARLO
 // ----------------------------------------------
 function copiar86() {       
     // Crea un input para poder copiar el texto dentro       
@@ -134,7 +134,7 @@ function copiar86() {
 }
 
 // ----------------------------------------------
-// 86b - DATOS PARA TRANSFERENCIA
+// 86b - NO ABONA
 // ----------------------------------------------
 function copiar86b() {       
     // Crea un input para poder copiar el texto dentro       
