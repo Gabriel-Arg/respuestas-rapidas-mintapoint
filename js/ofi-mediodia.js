@@ -238,3 +238,33 @@ function copiar77e() {
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// 77f - CONTACTAR A LOS 3 DIAS
+// ----------------------------------------------
+function copiar77f() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77f').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 77g - QUIERE CONTRATAR
+// ----------------------------------------------
+function copiar77g() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77g').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
