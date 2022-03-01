@@ -237,3 +237,108 @@ function copiar87e() {
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// 87f - CONTACTAR A LOS TRES DIAS
+// ----------------------------------------------
+function copiar87f() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-87f').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 87g - QUIERE CONTRATAR
+// ----------------------------------------------
+function copiar87g() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-87g').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 87h - DICE QUE SI
+// ----------------------------------------------
+function copiar87h() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-87h').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 87i - ABONA
+// ----------------------------------------------
+function copiar87i() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-87i').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 87j - QUIERE SEGUIR PENSANDOLO
+// ----------------------------------------------
+function copiar87j() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-87j').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 87k - NO ABONA
+// ----------------------------------------------
+function copiar87k() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-87k').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 87l - CIERRE
+// ----------------------------------------------
+function copiar87l() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-87l').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
