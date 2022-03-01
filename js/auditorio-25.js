@@ -1,5 +1,5 @@
 // ----------------------------------------------
-// 118 - RECOMENDAR AUDITORIO 1
+// 118 - RECOMENDAR AUDITORIO
 // ----------------------------------------------
 function copiar118() {       
     // Crea un input para poder copiar el texto dentro       
@@ -14,7 +14,7 @@ function copiar118() {
 }
 
 // ----------------------------------------------
-// 119 - RECOMENDAR AUDITORIO 2
+// 119 - PRECIO
 // ----------------------------------------------
 function copiar119() {       
     // Crea un input para poder copiar el texto dentro       
@@ -29,7 +29,7 @@ function copiar119() {
 }
 
 // ----------------------------------------------
-// 120 - INFORMACION DEL AUDITORIO
+// 120 - ESTÁ CONFORME?
 // ----------------------------------------------
 function copiar120() {       
     // Crea un input para poder copiar el texto dentro       
@@ -43,9 +43,8 @@ function copiar120() {
     textArea.remove() 
 }
 
-
 // ----------------------------------------------
-// 121 - PRECIO NO MIEMBRO
+// 121 - DICE QUE SI IMPULSAR EL CIERRE
 // ----------------------------------------------
 function copiar121() {       
     // Crea un input para poder copiar el texto dentro       
@@ -60,7 +59,7 @@ function copiar121() {
 }
 
 // ----------------------------------------------
-// 122 - PRECIO MIEMBRO
+// 122 - SI DICE QUE TIENE QUE PENSARLO O HABLARLO CON ALGUIEN
 // ----------------------------------------------
 function copiar122() {       
     // Crea un input para poder copiar el texto dentro       
@@ -75,7 +74,7 @@ function copiar122() {
 }
 
 // ----------------------------------------------
-// 123 - ES OPCION CORRECTA
+// 123 - VOLVER A CONTACTAR
 // ----------------------------------------------
 function copiar123() {       
     // Crea un input para poder copiar el texto dentro       
@@ -90,7 +89,7 @@ function copiar123() {
 }
 
 // ----------------------------------------------
-// 124 - RESERVAR AUDITORIO 1
+// 124 - QUIERE CONTRATAR
 // ----------------------------------------------
 function copiar124() {       
     // Crea un input para poder copiar el texto dentro       
@@ -105,7 +104,7 @@ function copiar124() {
 }
 
 // ----------------------------------------------
-// 125 - RESERVAR AUDITORIO 2
+// 125 - SI DICE QUE TIENE QUE PENSARLO O HABLARLO CON ALGUIEN
 // ----------------------------------------------
 function copiar125() {       
     // Crea un input para poder copiar el texto dentro       
@@ -120,7 +119,7 @@ function copiar125() {
 }
 
 // ----------------------------------------------
-// 126 - RESERVAR AUDITORIO 3
+// 126 - CONTACTAR A LOS 3 DÍAS
 // ----------------------------------------------
 function copiar126() {       
     // Crea un input para poder copiar el texto dentro       
@@ -135,7 +134,7 @@ function copiar126() {
 }
 
 // ----------------------------------------------
-// 127 - CIERRE
+// 127 - QUIERE CONTRATAR
 // ----------------------------------------------
 function copiar127() {       
     // Crea un input para poder copiar el texto dentro       
@@ -150,7 +149,7 @@ function copiar127() {
 }
 
 // ----------------------------------------------
-// 128 - DATOS TRANSFERENCIA
+// 128 - SI DICE QUE TIENE QUE PENSARLO O HABLARLO CON ALGUIEN
 // ----------------------------------------------
 function copiar128() {       
     // Crea un input para poder copiar el texto dentro       
@@ -165,7 +164,7 @@ function copiar128() {
 }
 
 // ----------------------------------------------
-// 129 - CIERRE PERDIDO
+// 129 - CIERRE
 // ----------------------------------------------
 function copiar129() {       
     // Crea un input para poder copiar el texto dentro       
