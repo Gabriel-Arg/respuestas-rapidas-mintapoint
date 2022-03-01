@@ -1,5 +1,5 @@
 // ----------------------------------------------
-// 144 - RECOMENDACION 1
+// 144 - RECOMENDAR SALA DE REUNIONES
 // ----------------------------------------------
 function copiar144() {       
     // Crea un input para poder copiar el texto dentro       
@@ -14,7 +14,7 @@ function copiar144() {
 }
 
 // ----------------------------------------------
-// 145 - RECOMENDACION 2
+// 145 - PRECIO
 // ----------------------------------------------
 function copiar145() {       
     // Crea un input para poder copiar el texto dentro       
@@ -29,7 +29,7 @@ function copiar145() {
 }
 
 // ----------------------------------------------
-// 146 - INFORMACIÓN
+// 146 - ESTA CONFORME?
 // ----------------------------------------------
 function copiar146() {       
     // Crea un input para poder copiar el texto dentro       
@@ -44,7 +44,7 @@ function copiar146() {
 }
 
 // ----------------------------------------------
-// 147 - PRECIO NO MIEMBRO
+// 147 - DICE QUE SI IMPULSAR EL CIERRE
 // ----------------------------------------------
 function copiar147() {       
     // Crea un input para poder copiar el texto dentro       
@@ -59,7 +59,7 @@ function copiar147() {
 }
 
 // ----------------------------------------------
-// 148 - PRECIO MIEMBRO
+// 148 - SI DICE QUE SI VER MEDIO DE PAGO
 // ----------------------------------------------
 function copiar148() {       
     // Crea un input para poder copiar el texto dentro       
@@ -74,7 +74,7 @@ function copiar148() {
 }
 
 // ----------------------------------------------
-// 149 - ES OPCION CORRECTA
+// 149 - SI DECE QUE TIENE QUE PENSARLO O HABLARLO CON ALGUIEN
 // ----------------------------------------------
 function copiar149() {       
     // Crea un input para poder copiar el texto dentro       
@@ -89,7 +89,7 @@ function copiar149() {
 }
 
 // ----------------------------------------------
-// 150 - RESERVAR 1
+// 150 - VOLVER A CONTACTAR
 // ----------------------------------------------
 function copiar150() {       
     // Crea un input para poder copiar el texto dentro       
@@ -104,7 +104,7 @@ function copiar150() {
 }
 
 // ----------------------------------------------
-// 151 - RESERVAR 2
+// 151 - QUIERE CONTRATAR
 // ----------------------------------------------
 function copiar151() {       
     // Crea un input para poder copiar el texto dentro       
@@ -119,7 +119,7 @@ function copiar151() {
 }
 
 // ----------------------------------------------
-// 152 - RECOMENDAR 3
+// 152 - SI DICE QUE TIENE QUE PENSARLO O HABLARLO CON ALGUIEN
 // ----------------------------------------------
 function copiar152() {       
     // Crea un input para poder copiar el texto dentro       
@@ -134,7 +134,7 @@ function copiar152() {
 }
 
 // ----------------------------------------------
-// 153 - CIERRE
+// 153 - CONTACTAR A LOS 3 DÍAS
 // ----------------------------------------------
 function copiar153() {       
     // Crea un input para poder copiar el texto dentro       
@@ -149,7 +149,7 @@ function copiar153() {
 }
 
 // ----------------------------------------------
-// 154 - DATOS TRANSFERENCIA
+// 154 - QUIERE CONTRATAR
 // ----------------------------------------------
 function copiar154() {       
     // Crea un input para poder copiar el texto dentro       
@@ -164,7 +164,7 @@ function copiar154() {
 }
 
 // ----------------------------------------------
-// 155 - CIERRE PERDIDO
+// 155 - SI DICE QUE TIENE QUE PENSARLO O HABLARLO CON ALGUIEN
 // ----------------------------------------------
 function copiar155() {       
     // Crea un input para poder copiar el texto dentro       
@@ -179,7 +179,7 @@ function copiar155() {
 }
 
 // ----------------------------------------------
-// 156 - UNA VEZ RESERVADO
+// 156 - CIERRE
 // ----------------------------------------------
 function copiar156() {       
     // Crea un input para poder copiar el texto dentro       
