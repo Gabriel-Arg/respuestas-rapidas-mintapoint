@@ -14,7 +14,7 @@ function copiar59() {
 }
 
 // ----------------------------------------------
-// 60 - PRECIO
+// 60 - MEDIO DAY PASS
 // ----------------------------------------------
 function copiar60() {       
     // Crea un input para poder copiar el texto dentro       
@@ -29,7 +29,7 @@ function copiar60() {
 }
 
 // ----------------------------------------------
-// 61 - FORMAS DE PAGO
+// 61 - PASE EXPRESS
 // ----------------------------------------------
 function copiar61() {       
     // Crea un input para poder copiar el texto dentro       
@@ -44,7 +44,7 @@ function copiar61() {
 }
 
 // ----------------------------------------------
-// 62 - ESA OPCION ES CORRECTA
+// 62 - FLEX
 // ----------------------------------------------
 function copiar62() {       
     // Crea un input para poder copiar el texto dentro       
@@ -59,7 +59,7 @@ function copiar62() {
 }
 
 // ----------------------------------------------
-// 63 - RECOMENDAR MEMBRE 3
+// 63 - FLEX ORO
 // ----------------------------------------------
 function copiar63() {       
     // Crea un input para poder copiar el texto dentro       
@@ -74,7 +74,7 @@ function copiar63() {
 }
 
 // ----------------------------------------------
-// 64 - CIERRE 1
+// 64 - FLEX DESK
 // ----------------------------------------------
 function copiar64() {       
     // Crea un input para poder copiar el texto dentro       
@@ -89,7 +89,7 @@ function copiar64() {
 }
 
 // ----------------------------------------------
-// 65 - CIERRE 2
+// 65 - OFICINA PRIVADA
 // ----------------------------------------------
 function copiar65() {       
     // Crea un input para poder copiar el texto dentro       
@@ -104,7 +104,7 @@ function copiar65() {
 }
 
 // ----------------------------------------------
-// 66 - DATOS DE TRANSFERENCIA
+// 66 - OFICINA VIRTUAL
 // ----------------------------------------------
 function copiar66() {       
     // Crea un input para poder copiar el texto dentro       

@@ -1,5 +1,5 @@
 // ----------------------------------------------
-// 20 - INFORMACION DE LA MEMBRESIA
+// 20 - MEDIO DAY PASS
 // ----------------------------------------------
 function copiar20() {       
     // Crea un input para poder copiar el texto dentro       
