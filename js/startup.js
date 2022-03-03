@@ -1,5 +1,5 @@
 // ----------------------------------------------
-// 88 - INDAGAR PARA STARTUP
+// 88 - SALA DE REUNIONES
 // ----------------------------------------------
 function copiar88() {       
     // Crea un input para poder copiar el texto dentro       
@@ -14,7 +14,7 @@ function copiar88() {
 }
 
 // ----------------------------------------------
-// 89 - RECOMENDAR STARTUP 1
+// 89 - SALON 25P
 // ----------------------------------------------
 function copiar89() {       
     // Crea un input para poder copiar el texto dentro       
@@ -29,7 +29,7 @@ function copiar89() {
 }
 
 // ----------------------------------------------
-// 90 - RECOMENDAR STARTUP 2
+// 90 - SALON +25P
 // ----------------------------------------------
 function copiar90() {       
     // Crea un input para poder copiar el texto dentro       
@@ -42,6 +42,15 @@ function copiar90() {
     // Delete created Element       
     textArea.remove() 
 }
+
+
+
+
+
+
+// ----------------------------------------------
+// 91 - FUNCIONES LIBRES SIN USAR
+// ----------------------------------------------
 
 // ----------------------------------------------
 // 91 - INFORMACION STARTUP
