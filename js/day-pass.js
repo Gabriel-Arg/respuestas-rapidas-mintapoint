@@ -74,6 +74,21 @@ function copiar54() {
 }
 
 // ----------------------------------------------
+// 54b - SITUACION IDEAL DE USO
+// ----------------------------------------------
+function copiar54b() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-54b').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
 // 55 - CIERRE 1
 // ----------------------------------------------
 function copiar55() {       
@@ -139,6 +154,21 @@ function copiar58() {
 function copiar59() {       
     // Crea un input para poder copiar el texto dentro       
     let copyText = document.getElementById('rr-59').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
+
+// ----------------------------------------------
+// 59b - SITUACION IDEAL DE USO
+// ----------------------------------------------
+function copiar59b() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-59b').innerText 
     const textArea = document.createElement('textarea');
     textArea.textContent = copyText;
     document.body.append(textArea);       
