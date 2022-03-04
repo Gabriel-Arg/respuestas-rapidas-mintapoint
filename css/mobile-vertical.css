@@ -224,6 +224,7 @@ p {
   padding: 0;
   color: #525252;
   font-weight: bold;
+  font-size: 9px;
 }
 .cuerpo-fluid .cuerpo-row .row_contenidos .colapso_p #indagar {
   background-color: #b8b8b8;

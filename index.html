@@ -1703,13 +1703,15 @@
                 <div id="flex" class="tabcontent pestaña">
                     <h2>ETAPA 1</h2>
 
-                    <!-- ---------INFORMACION DE FLEX--------------------- -->
+                    <!-- ---------RECOMENDAR FLEX--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-3" aria-expanded="false" 
                             aria-controls="flex-3"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>5A</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Recomendar Flex
                         </button>
                     </p>
@@ -1739,14 +1741,16 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-4" aria-expanded="false" 
                             aria-controls="flex-4"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>5B</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Precio
                         </button>
                     </p>
                     <!-- MENSAJE-------------- -->
                     <div class="collapse" id="flex-4"> <!-- cambiar ID con el numero de membresia -->
                         <div class="card card-body colapso_mje" id="rr-11">
-                            El valor *mensual* y * por persona* es de 9.500 IVA incluído y en cualquier método de pago.
+                            El valor *mensual* y * por persona* es de 9500 IVA incluído y en cualquier método de pago.
                         </div>
 
                         <!-- BOTON COPIAR----- -->
@@ -1757,38 +1761,62 @@
 
                     <!-- ---------PRECIO DE RENOVACIÓN--------------------- -->
                     <!-- BOTON---------------- -->
-                    <p class="colapso_p">
+                    <!-- <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-5" aria-expanded="false" 
-                            aria-controls="flex-5"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            aria-controls="flex-5"> 
+                            <div id="indagar" class="etiqueta-color"></div> 
                             Precio para Renovación
                         </button>
-                    </p>
+                    </p> -->
                     <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flex-5"> <!-- cambiar ID con el numero de membresia -->
+                    <!-- <div class="collapse" id="flex-5">
                         <div class="card card-body colapso_mje" id="rr-12">
 
                             Luego, por ser miembro accedés a un precio renovación que es mucho más económico!
 
-                        </div>
+                        </div> -->
 
                         <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar12()">
+                        <!-- <button class="btn-copy" onclick="copiar12()">
                             Copiar
                         </button>
-                    </div>
+                    </div> -->
 
-                    <!-- ---------FORMAS DE PAGO--------------------- -->
+                    <!-- ---------ESTÁ CONFORME?--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-6" aria-expanded="false" 
                             aria-controls="flex-6"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-flex-etapa1-1">
+                                <p>5C</p>
+                            </div> <!-- Cambiar el color CSS -->
                             ¿Está conforme?
                         </button>
                     </p>
+
+                    <!-- ----------------MODAL AYUDA PARA EL ASESOR------------------------------------- -->
+                    <!-- Cambiar el ID por cada modal -->
+                    <div class="modal fade" id="modal-flex-etapa1-1" 
+                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivo:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Esperar a que nos responda algo sobre la membresía y el precio, y si no demuestra que quiere 
+                                    cerrar, le enviamos esta respuesta para chequear que esté todo bien y que lo que le ofrecemos 
+                                    sea lo que necesita.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- MENSAJE-------------- -->
                     <div class="collapse" id="flex-6"> <!-- cambiar ID con el numero de membresia -->
                         <div class="card card-body colapso_mje" id="rr-13">
@@ -1801,15 +1829,16 @@
                         </button>
                     </div>
 
-                    <!-- ---------QUE OPINAS--------------------- -->
+                    <!-- ---------STA CONFORME IMPULSAR EL CIERRE--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-7" aria-expanded="false" 
                             aria-controls="flex-7"> <!-- cambiar target y controls con el numero de membresia -->
                             <div id="indagar" class="etiqueta-color">
+                                <p>6A</p>
                             </div> <!-- Cambiar el color CSS -->
-                            Dice que si - Impulsar el cierre
+                            Está conforme - Impulsar el cierre
                         </button>
                     </p>
 
@@ -1825,13 +1854,15 @@
                         </button>
                     </div>
 
-                    <!-- ---------RECOMENDAR NO ME LO PENSARIA--------------------- -->
+                    <!-- ---------DICE FECHA--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-8" aria-expanded="false" 
                             aria-controls="flex-8"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>6Aa</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Si dice fecha
                         </button>
                     </p>
@@ -1848,13 +1879,14 @@
                         </button>
                     </div>
 
-                    <!-- ---------CIERRE 1--------------------- -->
+                    <!-- --------DICE QUE SI AL REGISTRO--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-9" aria-expanded="false" 
                             aria-controls="flex-9"> <!-- cambiar target y controls con el numero de membresia -->
                             <div id="indagar" class="etiqueta-color">
+                                <p>6Ab</p>
                             </div> <!-- Cambiar el color CSS -->
                             Dice que si al registro
                         </button>
@@ -1879,6 +1911,7 @@
                             data-bs-target="#flex-10" aria-expanded="false" 
                             aria-controls="flex-10"> <!-- cambiar target y controls con el numero de membresia -->
                             <div id="indagar" class="etiqueta-color">
+                                <p>6Ac</p>
                             </div> <!-- Cambiar el color CSS -->
                             Abona
                         </button>
@@ -1901,37 +1934,15 @@
                         </button>
                     </div>
 
-                    <!-- ---------RESPUESTA RÁPIDA 11--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flex-11" aria-expanded="false" 
-                            aria-controls="flex-11"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color">
-                            </div> <!-- Cambiar el color CSS -->
-                            Si no dice fecha y quiere pensarlo
-                        </button>
-                    </p>
-
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flex-11"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-18">
-                            Me parece perfecto que lo pienses! Cualquier duda que te surja, estoy aquí para ayudarte 😊
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar18()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------CHECKIN WEB - PRE BIENVENIDA--------------------- -->
+                    <!-- ---------NO ABONA--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#desk-4" aria-expanded="false" 
                             aria-controls="desk-4">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>6Ad</p>
+                            </div> <!-- Cambiar el color CSS -->
                             No abona
                         </button>
                     </p>
@@ -1949,18 +1960,65 @@
                         </button>
                     </div>
 
+                    <!-- ---------QUIERE PENSARLO--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flex-11" aria-expanded="false" 
+                            aria-controls="flex-11"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>6B</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Quiere pensarlo
+                        </button>
+                    </p>
+
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flex-11"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-18">
+                            Me parece perfecto que lo pienses! Cualquier duda que te surja, estoy aquí para ayudarte 😊
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar18()">
+                            Copiar
+                        </button>
+                    </div>
+
                     <h2 style="margin-top: 2px;">ETAPA 2</h2>
 
-                    <!-- ---------CIERRE PERDIDO--------------------- -->
+                    <!-- ---------VOLVER A CONTACTAR--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-15" aria-expanded="false" 
                             aria-controls="flex-15"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-flex-etapa2">
+                                <p>7A</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Volver a contactar
                         </button>
                     </p>
+
+                    <!-- ----------------MODAL AYUDA PARA EL ASESOR------------------------------------- -->
+                    <!-- Cambiar el ID por cada modal -->
+                    <div class="modal fade" id="modal-flex-etapa2" 
+                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivo:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Pasados 3 días del último contacto, empieza la etapa 2
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- MENSAJE-------------- -->
                     <div class="collapse" id="flex-15"> <!-- cambiar ID con el numero de membresia -->
                         <div class="card card-body colapso_mje" id="rr-19">
@@ -1975,13 +2033,15 @@
                         </button>
                     </div>
 
-                    <!-- ---------CIERRE PERDIDO--------------------- -->
+                    <!-- ---------QUIERE CONTRATAR--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-etapa2-1" aria-expanded="false" 
                             aria-controls="flex-etapa2-1"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>7Aa</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Quiere contratar
                         </button>
                     </p>
@@ -2004,7 +2064,9 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-etapa2-2" aria-expanded="false" 
                             aria-controls="flex-etapa2-2"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>7Ab</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Dice que si
                         </button>
                     </p>
@@ -2027,7 +2089,9 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-etapa2-3" aria-expanded="false" 
                             aria-controls="flex-etapa2-3"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>7Ac</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Abona
                         </button>
                     </p>
@@ -2047,13 +2111,42 @@
                         </button>
                     </div>
 
+                    <!-- ---------NO ABONA--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flex-etapa2-5" aria-expanded="false" 
+                            aria-controls="flex-etapa2-5"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>7Ad</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            No abona
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flex-etapa2-5"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-24">
+                            
+                            No te preocupes entonces (nombre de la persona), gestionamos todo cuando vengas a 
+                            trabajar y abonar tu membresía 😃
+
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar24()">
+                            Copiar
+                        </button>
+                    </div>
+
                     <!-- ---------QUIERES SEGUIR PENSANDOLO--------------------- -->
                     <!-- BOTON---------------- -->
                     <p class="colapso_p">
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-etapa2-4" aria-expanded="false" 
                             aria-controls="flex-etapa2-4"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>7B</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Quiere seguir pensandolo
                         </button>
                     </p>
@@ -2073,31 +2166,6 @@
 
                         <!-- BOTON COPIAR----- -->
                         <button class="btn-copy" onclick="copiar23()">
-                            Copiar
-                        </button>
-                    </div>
-
-                    <!-- ---------NO ABONA--------------------- -->
-                    <!-- BOTON---------------- -->
-                    <p class="colapso_p">
-                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flex-etapa2-5" aria-expanded="false" 
-                            aria-controls="flex-etapa2-5"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            No abona
-                        </button>
-                    </p>
-                    <!-- MENSAJE-------------- -->
-                    <div class="collapse" id="flex-etapa2-5"> <!-- cambiar ID con el numero de membresia -->
-                        <div class="card card-body colapso_mje" id="rr-24">
-                            
-                            No te preocupes entonces (nombre de la persona), gestionamos todo cuando vengas a 
-                            trabajar y abonar tu membresía 😃
-
-                        </div>
-
-                        <!-- BOTON COPIAR----- -->
-                        <button class="btn-copy" onclick="copiar24()">
                             Copiar
                         </button>
                     </div>
