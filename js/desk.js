@@ -342,3 +342,18 @@ function copiar49l() {
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// 49m - SITUACIÓN IDEAL DE USO
+// ----------------------------------------------
+function copiar49m() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-49m').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
