@@ -5432,7 +5432,9 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-1" aria-expanded="false" 
                             aria-controls="flex-1">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>5A</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Recomendación Sala de Reuniones
                         </button>
                     </p>
@@ -5460,7 +5462,9 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flex-2" aria-expanded="false" 
                             aria-controls="flex-2">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>5B</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Precio
                         </button>
                     </p>
@@ -5468,8 +5472,7 @@
                     <div class="collapse" id="flex-2">
                         <div class="card card-body colapso_mje" id="rr-145">
                             
-                            El valor *por hora* y * para no miembros* es de 4.000 IVA incluído y en 
-                            cualquier método de pago.
+                            El valor *por hora* y * para no miembros* es de 4000 IVA incluído y en cualquier método de pago.
 
                         </div>
                         <!-- BOTON COPIAR----------- -->
@@ -5484,10 +5487,36 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#desk-3" aria-expanded="false" 
                             aria-controls="desk-3"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-salareuniones-etapa1">
+                                <p>5C</p>
+                            </div> <!-- Cambiar el color CSS -->
                             ¿Está conforme?
                         </button>
                     </p>
+
+                    <!-- ----------------MODAL AYUDA PARA EL ASESOR------------------------------------- -->
+                    <!-- Cambiar el ID por cada modal -->
+                    <div class="modal fade" id="modal-salareuniones-etapa1" 
+                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivo:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    Esperar a que nos responda algo sobre la membresía y el precio, y si no demuestra que quiere 
+                                    cerrar, le enviamos esta respuesta para chequear que esté todo bien y que lo que le ofrecemos 
+                                    sea lo que necesita.
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- MENSAJE-------------- -->
                     <div class="collapse" id="desk-3"> <!-- cambiar ID con el numero de membresia -->
                         <div class="card card-body colapso_mje" id="rr-146">
@@ -5508,8 +5537,10 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#desk-4" aria-expanded="false" 
                             aria-controls="desk-4">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            Dice que si - Impulsar el cierre
+                            <div id="indagar" class="etiqueta-color">
+                                <p>6A</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Está conforme - Impulsar al cierre
                         </button>
                     </p>
                     <!-- MENSAJE-------------- -->
@@ -5533,8 +5564,10 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#desk-5" aria-expanded="false" 
                             aria-controls="desk-5">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            Si dice que si
+                            <div id="indagar" class="etiqueta-color">
+                                <p>6Aa</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Quiere pagar
                         </button>
                     </p>
                     <!-- MENSAJE-------------- -->
@@ -5556,8 +5589,10 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flexplata-7" aria-expanded="false" 
                             aria-controls="flexplata-7"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            Si dice que tiene que pensarlo o hablarlo con alguien
+                            <div id="indagar" class="etiqueta-color">
+                                <p>6B</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Quiere pensarlo
                         </button>
                     </p>
                     <!-- MENSAJE-------------- -->
@@ -5583,10 +5618,34 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#auditorio-1" aria-expanded="false" 
                             aria-controls="auditorio-1">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            Volver a contactar
+                            <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-salareuniones-etapa2">
+                                <p>7A</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Volver a contactarlo
                         </button>
                     </p>
+
+                    <!-- ----------------MODAL AYUDA PARA EL ASESOR------------------------------------- -->
+                    <!-- Cambiar el ID por cada modal -->
+                    <div class="modal fade" id="modal-salareuniones-etapa2" 
+                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivo:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    Pasados 3 días del último contacto, empieza la etapa 2
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- MENSAJE-------------- -->
                     <div class="collapse" id="auditorio-1">
                         <div class="card card-body colapso_mje" id="rr-150">
@@ -5608,7 +5667,9 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#auditorio-2" aria-expanded="false" 
                             aria-controls="auditorio-2">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>7Ba</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Quiere contratar
                         </button>
                     </p>
@@ -5632,8 +5693,10 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#auditorio-3" aria-expanded="false" 
                             aria-controls="auditorio-3">
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            Si dice que tiene que pensarlo o hablarlo con alguien
+                            <div id="indagar" class="etiqueta-color">
+                                <p>7Bb</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Quiere pensarlo
                         </button>
                     </p>
                     <!-- MENSAJE-------------- -->
@@ -5660,10 +5723,34 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flexplata-10" aria-expanded="false" 
                             aria-controls="flexplata-10"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            Contactar a los 3 días
+                            <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-salareuniones-etapa3">
+                                <p>8A</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Volver a contactarlo
                         </button>
                     </p>
+
+                    <!-- ----------------MODAL AYUDA PARA EL ASESOR------------------------------------- -->
+                    <!-- Cambiar el ID por cada modal -->
+                    <div class="modal fade" id="modal-salareuniones-etapa3" 
+                    tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Objetivo:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    
+                                    Pasados 3 días del último contacto, empieza la etapa 3
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- MENSAJE-------------- -->
                     <div class="collapse" id="flexplata-10"> <!-- cambiar ID con el numero de membresia -->
                         <div class="card card-body colapso_mje" id="rr-153">
@@ -5685,7 +5772,9 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flexplata-11" aria-expanded="false" 
                             aria-controls="flexplata-11"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
+                            <div id="indagar" class="etiqueta-color">
+                                <p>8Ba</p>
+                            </div> <!-- Cambiar el color CSS -->
                             Quiere contratar
                         </button>
                     </p>
@@ -5710,8 +5799,10 @@
                         <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
                             data-bs-target="#flexplata-15" aria-expanded="false" 
                             aria-controls="flexplata-15"> <!-- cambiar target y controls con el numero de membresia -->
-                            <div id="indagar" class="etiqueta-color"></div> <!-- Cambiar el color CSS -->
-                            Si dice que tiene que pensarlo o hablarlo con alguien
+                            <div id="indagar" class="etiqueta-color">
+                                <p>8Bb</p>
+                            </div> <!-- Cambiar el color CSS -->
+                            Quiere pensarlo
                         </button>
                     </p>
                     <!-- MENSAJE-------------- -->
@@ -5735,7 +5826,7 @@
                             data-bs-target="#flexplata-16" aria-expanded="false" 
                             aria-controls="flexplata-16"> <!-- cambiar target y controls con el numero de membresia -->
                             <div id="indagar" class="etiqueta-color" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-saladereuniones-etapa3">
-                                <p>?</p>
+                                <p>9</p>
                             </div> <!-- Cambiar el color CSS -->
                             Cierre
                         </button>
@@ -5775,6 +5866,36 @@
 
                         <!-- BOTON COPIAR----- -->
                         <button class="btn-copy"  onclick="copiar156()">
+                            Copiar
+                        </button>
+                    </div>
+
+                    <!-- ---------SITUACIÓN IDEAL DE USO--------------------- -->
+                    <!-- BOTON---------------- -->
+                    <p class="colapso_p">
+                        <button class="btn btn-primary colapso_p_btn" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flexplata-15b" aria-expanded="false" 
+                            aria-controls="flexplata-15b"> <!-- cambiar target y controls con el numero de membresia -->
+                            <div id="indagar" class="etiqueta-color">
+                            </div> <!-- Cambiar el color CSS -->
+                            Situación ideal de uso
+                        </button>
+                    </p>
+                    <!-- MENSAJE-------------- -->
+                    <div class="collapse" id="flexplata-15b"> <!-- cambiar ID con el numero de membresia -->
+                        <div class="card card-body colapso_mje" id="rr-156b">
+                            
+                            <ul>
+                                <li>Si tenés que reunirte con tu equipo de trabajo o clientes</li>
+                                <li>Si tenés que llevar a cabo una videoconferencia</li>
+                                <li>Si buscas un espacio de privacidad para reunirte</li>
+                                <li>Si tenes que dar una clase para 10 personas o menos</li>
+                            </ul>	
+
+                        </div>
+
+                        <!-- BOTON COPIAR----- -->
+                        <button class="btn-copy" onclick="copiar156b()">
                             Copiar
                         </button>
                     </div>
