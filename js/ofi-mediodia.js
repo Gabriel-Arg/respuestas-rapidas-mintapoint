@@ -343,3 +343,18 @@ function copiar77l() {
     // Delete created Element       
     textArea.remove() 
 }
+
+// ----------------------------------------------
+// 77m - SITUACIÓN IDEAL DE USO
+// ----------------------------------------------
+function copiar77m() {       
+    // Crea un input para poder copiar el texto dentro       
+    let copyText = document.getElementById('rr-77m').innerText 
+    const textArea = document.createElement('textarea');
+    textArea.textContent = copyText;
+    document.body.append(textArea);       
+    textArea.select();       
+    document.execCommand("copy");       
+    // Delete created Element       
+    textArea.remove() 
+}
